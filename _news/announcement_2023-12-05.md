@@ -11,16 +11,7 @@ One paper titled "Evaluating Large Language Models in Class-Level Code Generatio
 
 
 <!--
-            <b>[June 2023]</b> One paper titled "Knowledge Graph based Explainable Question Retrieval for
-            Programming Tasks" got accepted in
-            <a href="https://conf.researchr.org/home/icsme-2023">ICSME 2023</a>.
-            <a href="http://mingwei-liu.github.io/files/icsme2023-KG4QuesRecomm.pdf"
-               class="btn btn-primary btn-sm text-decoration-none">Paper</a>
-        </p>
-    </li>
 
-    <li>
-        <p>
             <b>[May 2023]</b> Check out our preprint on ChatGPT-based unit test generation.
             <a href="https://arxiv.org/pdf/2305.04207.pdf" class="btn btn-primary btn-sm text-decoration-none">Preprint</a>
         </p>
