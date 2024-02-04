@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoc, School of Computer Science, Fudan University
+subtitle: [Postdoc, School of Computer Science, Fudan University](http://www.cs.fudan.edu.cn/)
 
 profile:
   align: right
@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 
 Dr. Mingwei Liu (刘名威) is presently serving as a Postdoctoral Fellow at Fudan University, China.
 He received his Ph.D. and B.E degrees in Software Engineering from Fudan University in 2022 and 2017.
-During his academic tenure, he had the invaluable opportunity to work under the guidance and mentorship of <a href="https://cspengxin.github.io/">Xin Peng</a>.
+During his academic tenure, he had the invaluable opportunity to work under the guidance and mentorship of [Xin Peng](https://cspengxin.github.io/).
 
 
 Dr. Liu's research focuses on the intersection of Software Engineering (SE) and Artificial Intelligence (AI), specifically in the domains of AI4SE and SE4AI.
