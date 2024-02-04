@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: [Postdoc, School of Computer Science, Fudan University](http://www.cs.fudan.edu.cn/)
+subtitle: <a>Postdoc, School of Computer Science, Fudan University</a>
 
 profile:
   align: right
