@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Postdoc, School of Computer Science, Fudan University
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Insterdisciplinary Building 2, Room D2007</p>
-    <p>Jiangwan Campus, Fudan University</p>
-    <p>Shanghai, China</p>
+    <p>Insterdisciplinary Building 2, D2007</p>
+    <p>Fudan University (Jiangwan Campus)</p>
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
