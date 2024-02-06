@@ -7,7 +7,7 @@ nav: true
 nav_order: 8
 ---
 
-- 2023: ACM SIGSOFT Distinguished Paper Award, ESEC/FSE 2023
+- 2023: [ACM SIGSOFT Distinguished Paper Award, ESEC/FSE 2023](https://2023.esec-fse.org/info/awards)
 
 - 2022: Outstanding Graduates of Ordinary Universities, Shanghai
 
@@ -17,4 +17,4 @@ nav_order: 8
 
 - 2019: Huawei Weirui Scholarship, Fudan University
 
-- 2018: IEEE TCSE Distinguished Paper Awards (ICSME 2018)
+- 2018: [IEEE TCSE Distinguished Paper Awards, ICSME 2018](https://icsme2018.github.io/program/Awards.html)
