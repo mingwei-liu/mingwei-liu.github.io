@@ -1,6 +1,5 @@
 "TSE":
   url: https://www.computer.org/csdl/journal/ts
-  color: "#00369f"
 
 "TOSEM":
   url: https://dl.acm.org/journal/tosem
@@ -13,3 +12,4 @@
 
 "arXiv":
   url: https://arxiv.org/
+  color: "#00369f"

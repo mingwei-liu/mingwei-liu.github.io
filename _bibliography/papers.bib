@@ -112,12 +112,41 @@ dimensions={true},
     bibtex_show={true},
     code={https://github.com/FudanSELab/codegen4libs},
     dataset={https://huggingface.co/datasets/FudanSELab/CodeGen4Libs},
-  altmetric={true},
     altmetric={true},
 dimensions={true},
  abbr={ASE 2023},
 
 
+}
+
+@inproceedings{DBLP:conf/sigsoft/DuLL0Y23,
+  author       = {Xueying Du and
+                  Yiling Lou and
+                  Mingwei Liu and
+                  Xin Peng and
+                  Tianyong Yang},
+  editor       = {Satish Chandra and
+                  Kelly Blincoe and
+                  Paolo Tonella},
+  abstract={Fixing crashes is challenging, and developers often discuss their encountered crashes and refer to similar crashes and solutions on online Q&A forums (e.g., Stack Overflow). However, a crash often involves very complex contexts, which includes different contextual elements, e.g., purposes, environments, code, and crash traces. Existing crash solution recommendation or general solution recommendation techniques only use an incomplete context or treat the entire context as pure texts to search relevant solutions for a given crash, resulting in inaccurate recommendation results. In this work, we propose a novel crash solution knowledge graph (KG) to summarize the complete crash context and its solution with a graph-structured representation. To construct the crash solution KG automatically, we propose to leverage prompt learning to construct the KG from SO threads with a small set of labeled data. Based on the constructed KG, we further propose a novel KG-based crash solution recommendation technique KG4CraSolver, which precisely finds the relevant SO thread for an encountered crash by finely analyzing and matching the complete crash context based on the crash solution KG. The evaluation results show that the constructed KG is of high quality and KG4CraSolver outperforms baselines in terms of all metrics (e.g., 13.4%-113.4% MRR improvements). Moreover, we perform a user study and find that KG4CraSolver helps participants find crash solutions 34.4% faster and 63.3% more accurately.},
+  title        = {KG4CraSolver: Recommending Crash Solutions via Knowledge Graph},
+  booktitle    = {Proceedings of the 31st {ACM} Joint European Software Engineering
+                  Conference and Symposium on the Foundations of Software Engineering,
+                  {ESEC/FSE} 2023, San Francisco, CA, USA, December 3-9, 2023},
+  pages        = {1242--1254},
+  publisher    = {{ACM}},
+  year         = {2023},
+  url          = {https://doi.org/10.1145/3611643.3616317},
+  doi          = {10.1145/3611643.3616317},
+  timestamp    = {Mon, 04 Dec 2023 12:10:56 +0100},
+  biburl       = {https://dblp.org/rec/conf/sigsoft/DuLL0Y23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  selected     = {true},
+  pdf={FSE2023-KG4CraSolver.pdf},
+  bibtex_show={true},
+  altmetric={true},
+  dimensions={true},
+  abbr={ESEC/FSE 2023},
 }
 
 @inproceedings{DBLP:conf/sigsoft/0002YL0ZDY23,
@@ -147,7 +176,6 @@ dimensions={true},
   selected     = {true},
   pdf={FSE2023-KG4AR.pdf},
     bibtex_show={true},
-    altmetric={true},
     award={ACM SIGSOFT Distinguished Paper Award},
   altmetric={true},
 dimensions={true},
