@@ -6,6 +6,10 @@
   url: https://dl.acm.org/journal/tosem
   color: "#8fce00"
 
+"JoS":
+  url: https://www.jos.org.cn/jos/home
+  color: "#8fce00"
+
 "ESEC/FSE 2023":
   url: https://conf.researchr.org/home/fse-2023
 
