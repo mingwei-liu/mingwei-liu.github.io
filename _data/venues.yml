@@ -1,6 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"TSE":
+  url: https://www.computer.org/csdl/journal/ts
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"TOSEM":
+  url: https://dl.acm.org/journal/tosem
+
+"ESEC/FSE 2023":
+  url: https://conf.researchr.org/home/fse-2023
+
+"ICSE 2024":
+  url: https://conf.researchr.org/home/icse-2024
+
+"arXiv":
+  url: https://arxiv.org/
