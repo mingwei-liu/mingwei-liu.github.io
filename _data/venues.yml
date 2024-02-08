@@ -1,11 +1,22 @@
 "TSE":
   url: https://www.computer.org/csdl/journal/ts
+  color: "#8fce00"
 
 "TOSEM":
   url: https://dl.acm.org/journal/tosem
+  color: "#8fce00"
 
 "ESEC/FSE 2023":
   url: https://conf.researchr.org/home/fse-2023
+
+"ESEC/FSE 2022":
+  url: https://2022.esec-fse.org/
+
+"ESEC/FSE 2021":
+  url: https://2021.esec-fse.org/
+
+"ESEC/FSE 2019":
+  url: https://esec-fse19.ut.ee/
 
 "ICSE 2024":
   url: https://conf.researchr.org/home/icse-2024
