@@ -4,7 +4,6 @@
     "label": "SE Researcher",
     "image": "picture_small.png",
     "email": "liumingwei@fudan.edu.cn",
-    "phone": "(+86) 15221926558",
     "url": "https://mingwei-liu.github.io/",
     "summary": "Dr. Mingwei Liu is a Postdoctoral Fellow at Fudan University, China. He received his Ph.D.\nand B.E degrees in Software Engineering from Fudan University in 2022 and 2017, under the\nsupervision of Prof. Xin Peng. His research focuses on the intersection of Software Engineering\n(SE) and Artificial Intelligence (AI), specifically in the domains of AI4SE and SE4AI. Dr. Liu’s\nprimary interest lies in leveraging advanced AI technologies, such as large language models and\nknowledge graphs, to address software engineering challenges and tackle the software engineering\nand system engineering problems prevalent in AI applications and scenarios.",
     "location": {
@@ -28,7 +27,7 @@
       "position": "Postdoctoral Fellow",
       "url": "https://www.se.fudan.edu.cn/",
       "startDate": "2022-06-05",
-      "endDate": "Present",
+      "endDate": "Now",
       "summary": "Leveraging the capabilities of large language models (e.g., ChatGPT, LLaMa, StarCoder, CodeT5, CodeGen)\nto enhance various aspects of software development, including code generation, bug detection and fixing, natural language understanding in software engineering, and automated software testing.",
       "highlights": ["Intelligent Software Development", "Code LLM", "Software Development Knowledge Graph"]
     }
