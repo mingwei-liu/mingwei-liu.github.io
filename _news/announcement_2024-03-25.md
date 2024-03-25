@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Check out the (ClassEval Leaderboard](https://fudanselab-classeval.github.io/leaderboard.html) for evaluating the most recent LLMs on class-level code generation. for evaluating the most recent LLMs on class-level code generation. Feel free to contact us to submit new results.
+Check out the [ClassEval Leaderboard](https://fudanselab-classeval.github.io/leaderboard.html) for evaluating the most recent LLMs on class-level code generation. for evaluating the most recent LLMs on class-level code generation. Feel free to contact us to submit new results.
