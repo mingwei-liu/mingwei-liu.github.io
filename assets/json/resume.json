@@ -22,12 +22,21 @@
     ]
   },
   "work": [
+     {
+      "name":, "School of Software Engineering, Sun Yat-Sen University",
+      "position": "Associate Professor",
+      "url": "https://sse.sysu.edu.cn/",
+      "startDate": "2024-06-01",
+      "endDate": "Now",
+      "summary": "AI4SE & SE4AI",
+      "highlights": ["Intelligent Software Development", "LLM4SE", "Trust LLM", "Software Development Knowledge Graph"]
+    },
     {
       "name": "School of Computer Science, Fudan University",
       "position": "Postdoctoral Fellow",
       "url": "https://www.se.fudan.edu.cn/",
       "startDate": "2022-06-05",
-      "endDate": "Now",
+      "endDate": "2024-05-31",
       "summary": "Leveraging the capabilities of large language models (e.g., ChatGPT, LLaMa, StarCoder, CodeT5, CodeGen)\nto enhance various aspects of software development, including code generation, bug detection and fixing, natural language understanding in software engineering, and automated software testing.",
       "highlights": ["Intelligent Software Development", "Code LLM", "Software Development Knowledge Graph"]
     }
