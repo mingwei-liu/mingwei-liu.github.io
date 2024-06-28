@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 Check out our preprint titled "STALL+: Boosting LLM-based Repository-level Code Completion with Static Analysis",
-[Preprint](https://https://arxiv.org/abs/2406.10018)
+[Preprint](https://arxiv.org/abs/2406.10018)
