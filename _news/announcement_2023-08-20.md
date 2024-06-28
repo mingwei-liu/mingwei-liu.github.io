@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Check out our manually-crafted benchmark ClassEval for evaluating LLMs on class-level code generation. 
+Check out our manually-crafted benchmark ClassEval for evaluating LLMs on class-level code generation.
 Any feedback would be appreciated for help us improve the benchmark.
 [GitHub](https://github.com/FudanSELab/ClassEval),
- [Preprint](https://arxiv.org/pdf/2308.01861.pdf)      
+[Preprint](https://arxiv.org/pdf/2308.01861.pdf)

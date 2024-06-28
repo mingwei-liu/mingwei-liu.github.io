@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-One paper titled "Evaluating Large Language Models in Class-Level Code Generation" got accepted in 
+One paper titled "Evaluating Large Language Models in Class-Level Code Generation" got accepted in
 [ICSE 2024](https://conf.researchr.org/track/icse-2024/icse-2024-research-track),
 [Paper](assets/pdf/ICSE2024ClassEval-V2.pdf)

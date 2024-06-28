@@ -17,11 +17,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Dr. Mingwei Liu (刘名威) is presently serving as an Associate Professor at the School of Software Engineering, Sun Yat-Sen University, China. 
-Before joining Sun Yat-Sen University, he completed his postdoctoral research at Fudan University in 2024. 
-He received his Ph.D. and B.E. degrees in Software Engineering from Fudan University in 2022 and 2017, respectively. 
+Dr. Mingwei Liu (刘名威) is presently serving as an Associate Professor at the School of Software Engineering, Sun Yat-Sen University, China.
+Before joining Sun Yat-Sen University, he completed his postdoctoral research at Fudan University in 2024.
+He received his Ph.D. and B.E. degrees in Software Engineering from Fudan University in 2022 and 2017, respectively.
 During his academic tenure, he had the invaluable opportunity to work under the guidance and mentorship of [Xin Peng](https://cspengxin.github.io/).
-
 
 Dr. Liu's research focuses on the intersection of Software Engineering (SE) and Artificial Intelligence (AI), specifically in the domains of AI4SE and SE4AI.
 His primary interest lies in leveraging advanced AI technologies, such as large language models (LLMs) and knowledge graphs (KGs), to address software engineering challenges and tackle the software engineering and system engineering problems prevalent in AI applications and scenarios.

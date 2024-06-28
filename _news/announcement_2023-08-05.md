@@ -9,4 +9,3 @@ One paper titled "CodeGen4Libs: A Two-stage Approach for Library-oriented Code G
 [ASE 2023](https://conf.researchr.org/home/ase-2023),
 [Paper](assets/pdf/ase2023-CodeGen4Libs.pdf),
 [GitHub](https://github.com/FudanSELab/codegen4libs)
-     

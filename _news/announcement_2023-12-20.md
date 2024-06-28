@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Check out our preprint titled "Resolving Crash Bugs via Large Language Models: An Empirical Study", 
+Check out our preprint titled "Resolving Crash Bugs via Large Language Models: An Empirical Study",
 [Preprint](https://arxiv.org/abs/2312.10448)
