@@ -7,4 +7,4 @@ related_posts: false
 
 One paper titled "Knowledge Graph based Explainable Question Retrieval for Programming Tasks" got accepted in
 [ICSME 2023](https://conf.researchr.org/home/icsme-2023),
-[Paper](assets/pdf/icsme2023-KG4QuesRecomm.pdf)
+[Paper](https://mingwei-liu.github.io/assets/pdf/icsme2023-KG4QuesRecomm.pdf)

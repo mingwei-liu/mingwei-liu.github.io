@@ -6,7 +6,7 @@ related_posts: false
 ---
 
 Our work won ACM SIGSOFT Distinguished Paper Award at
-[ESEC/FSE 2023](https://conf.researchr.org/home/fse-2023), [Paper](assets/pdf/FSE2023-KG4AR.pdf) :tada:
+[ESEC/FSE 2023](https://conf.researchr.org/home/fse-2023), [Paper](https://mingwei-liu.github.io/assets/pdf/FSE2023-KG4AR.pdf) :tada:
 
 <!--
 A simple inline announcement with Markdown emoji! :sparkles: :smile:

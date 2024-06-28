@@ -7,4 +7,4 @@ related_posts: false
 
 One paper titled "Research on Knowledge Graph Representation Learning Methods for Link Prediction: A Review" got accepted in
 [JSS 2023](http://www.jos.org.cn/jos/article/html/6902).
-[Paper](assets/pdf/JournalOfSoftware2023-KGRepSurvey.pdf)
+[Paper](https://mingwei-liu.github.io/assets/pdf/JournalOfSoftware2023-KGRepSurvey.pdf)

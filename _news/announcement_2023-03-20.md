@@ -7,4 +7,4 @@ related_posts: false
 
 One paper titled "KG4CraSolver: Recommending Crash Solutions via Knowledge Graph" got accepted in
 [ESEC/FSE 2023](https://conf.researchr.org/home/fse-2023),
-[Paper](assets/pdf/FSE2023-KG4CraSolver.pdf)
+[Paper](https://mingwei-liu.github.io/assets/pdf/FSE2023-KG4CraSolver.pdf)
