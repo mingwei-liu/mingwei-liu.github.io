@@ -32,7 +32,36 @@ Dr. Liu has published over twenty papers in top international journals and confe
   </strong>
 </div>
 
-The website for our lab: [sysuselab.github.io](https://sysuselab.github.io/).
+<div style="border: 1px solid #dce0e5; padding: 20px; border-radius: 8px; background: #f8fafc; max-width: 800px; margin: 0 auto;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+        <!-- Lab Column -->
+        <div>
+            <h4 style="color: #2c3e50; margin-top: 0; margin-bottom: 10px; display: flex; align-items: center;">
+                <span style="margin-right: 8px;">🔬</span> SYSUSE Lab
+            </h4>
+            <p style="color: #5d6d7e; margin: 8px 0; font-size: 0.9em; line-height: 1.5;">
+                Visit the homepage for our lab.
+            </p>
+            <a href="https://sysuselab.github.io/" target="_blank" style="color: #3498db; text-decoration: none; font-size: 0.9em;">
+                https://sysuselab.github.io/
+            </a>
+        </div>
+        
+        <!-- DailyLLM4SEPaper Column -->
+        <div>
+            <h4 style="color: #2c3e50; margin-top: 0; margin-bottom: 10px; display: flex; align-items: center;">
+                <span style="margin-right: 8px;">📖</span> DailyLLM4SEPaper
+            </h4>
+            <p style="color: #5d6d7e; margin: 8px 0 12px 0; font-size: 0.9em; line-height: 1.5;">
+                <strong style="color: #2c3e50;">Curating LLM Advances for Software Engineering</strong><br>
+                A curated collection of academic papers on Large Language Models applied to Software Engineering research.
+            </p>
+            <a href="https://sysuselab.github.io/DailyLLM4SEPaper/" target="_blank" style="color: #3498db; text-decoration: none; font-size: 0.9em;">
+                https://sysuselab.github.io/DailyLLM4SEPaper/
+            </a>
+        </div>
+    </div>
+</div>
 
 <!--
 # Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
