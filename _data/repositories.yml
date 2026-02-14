@@ -5,3 +5,8 @@ github_repos:
   - FudanSELab/ClassEval
   - FudanSELab/codegen4libs
   - FudanSELab/funcverbnet
+  - SYSUSELab/RustRepoTrans
+  - SYSUSELab/KTester
+  - SYSUSELab/FeedbackEval
+  - SYSUSELab/AdaDec
+  - SYSUSELab/RustEvo
