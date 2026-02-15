@@ -38,6 +38,6 @@ Dr. Liu has published over twenty papers in top international journals and confe
 
 <div style="border: 2px solid red; padding: 10px;">
   <strong>
-  I am looking for self-motivated undergraduate/master/Phd students interested in SE and AI. Please drop me an <a href="lmwtclmwtc@outlook.com">email</a> if you are interested in working with me! 
+  I am looking for self-motivated undergraduate/master/Phd students interested in SE and AI. Please drop me an <a href="liumw26@mail.sysu.edu.cn">email</a> if you are interested in working with me! 
   </strong>
 </div>
