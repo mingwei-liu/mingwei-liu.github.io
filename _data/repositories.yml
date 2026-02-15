@@ -1,6 +1,9 @@
 github_users:
   - mingwei-liu
 
+repo_description_lines_max: 2
+
+
 github_repos:
   - FudanSELab/ClassEval
   - FudanSELab/codegen4libs
