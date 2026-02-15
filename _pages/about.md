@@ -36,8 +36,6 @@ Dr. Liu's research focuses on the intersection of Software Engineering (SE) and 
 His primary interest lies in leveraging advanced AI technologies, such as large language models (LLMs) and knowledge graphs (KGs), to address software engineering challenges and tackle the software engineering and system engineering problems prevalent in AI applications and scenarios.
 Dr. Liu has published over twenty papers in top international journals and conferences in the field of software engineering, such as TSE, TOSEM, ICSE, FSE, and ASE. He has received several prestigious awards, including the IEEE TCSE Distinguished Paper Award (ICSME 2018) and the ACM SIGSOFT Distinguished Paper Award (FSE 2023).
 
-<div style="border: 2px solid red; padding: 10px;">
-  <strong>
+<strong>
   I am looking for self-motivated undergraduate/master/Phd students interested in SE and AI. Please drop me an <a href="liumw26@mail.sysu.edu.cn">email</a> if you are interested in working with me! 
-  </strong>
-</div>
+</strong>
