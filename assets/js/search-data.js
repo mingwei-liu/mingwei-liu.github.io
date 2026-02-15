@@ -430,18 +430,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-i-received-my-ph-d-degree-from-fudan-university",
+            },},{id: "news-i-received-my-ph-d-degree-from-fudan-university",
           title: 'I received my Ph.D degree from Fudan University.',
           description: "",
           section: "News",},{id: "news-i-joined-fudan-university-as-a-postdoctoral-fellow-working-with-prof-xin-peng",
