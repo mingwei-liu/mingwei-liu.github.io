@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mingwei-liu.github.io/sitemap.xml
+Sitemap: https://mingwei-liu.github.iohttps://mingwei-liu.github.io/sitemap.xml
