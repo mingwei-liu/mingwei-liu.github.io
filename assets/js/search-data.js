@@ -7,84 +7,84 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/https://mingwei-liu.github.io/";
+      window.location.href = "/";
     },
   },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/https://mingwei-liu.github.io/blog/";
+            window.location.href = "/blog/";
           },
         },{id: "nav-publications",
           title: "publications",
           description: "Publications (21): First Author (11), Corresponding Author(3). CCF-A (13): First Author (7), Corresponding Author (2).",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/https://mingwei-liu.github.io/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/https://mingwei-liu.github.io/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/https://mingwei-liu.github.io/repositories/";
+            window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/https://mingwei-liu.github.io/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/https://mingwei-liu.github.io/teaching/";
+            window.location.href = "/teaching/";
           },
         },{id: "nav-people",
           title: "people",
           description: "members of the lab or group",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/https://mingwei-liu.github.io/people/";
+            window.location.href = "/people/";
           },
         },{id: "nav-services",
           title: "services",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/https://mingwei-liu.github.io/services/";
+            window.location.href = "/services/";
           },
         },{id: "nav-awards",
           title: "awards",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/https://mingwei-liu.github.io/awards/";
+            window.location.href = "/awards/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/https://mingwei-liu.github.io/books/";
+                window.location.href = "/books/";
               },
             },{id: "dropdown-blog",
               title: "blog",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/https://mingwei-liu.github.io/blog/";
+                window.location.href = "/blog/";
               },
             },{id: "post-a-post-with-plotly-js",
         
@@ -94,7 +94,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2025/plotly/";
+            window.location.href = "/blog/2025/plotly/";
           
         },
       },{id: "post-a-post-with-image-galleries",
@@ -105,7 +105,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2024/photo-gallery/";
+            window.location.href = "/blog/2024/photo-gallery/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -127,7 +127,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2024/tabs/";
+            window.location.href = "/blog/2024/tabs/";
           
         },
       },{id: "post-a-post-with-typograms",
@@ -138,7 +138,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2024/typograms/";
+            window.location.href = "/blog/2024/typograms/";
           
         },
       },{id: "post-a-post-that-can-be-cited",
@@ -149,7 +149,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2024/post-citation/";
+            window.location.href = "/blog/2024/post-citation/";
           
         },
       },{id: "post-a-post-with-pseudo-code",
@@ -160,7 +160,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2024/pseudocode/";
+            window.location.href = "/blog/2024/pseudocode/";
           
         },
       },{id: "post-a-post-with-code-diff",
@@ -171,7 +171,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2024/code-diff/";
+            window.location.href = "/blog/2024/code-diff/";
           
         },
       },{id: "post-a-post-with-advanced-image-components",
@@ -182,7 +182,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2024/advanced-images/";
+            window.location.href = "/blog/2024/advanced-images/";
           
         },
       },{id: "post-a-post-with-vega-lite",
@@ -193,7 +193,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2024/vega-lite/";
+            window.location.href = "/blog/2024/vega-lite/";
           
         },
       },{id: "post-a-post-with-geojson",
@@ -204,7 +204,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2024/geojson-map/";
+            window.location.href = "/blog/2024/geojson-map/";
           
         },
       },{id: "post-a-post-with-echarts",
@@ -215,7 +215,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2024/echarts/";
+            window.location.href = "/blog/2024/echarts/";
           
         },
       },{id: "post-a-post-with-chart-js",
@@ -226,7 +226,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2024/chartjs/";
+            window.location.href = "/blog/2024/chartjs/";
           
         },
       },{id: "post-a-post-with-tikzjax",
@@ -237,7 +237,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2023/tikzjax/";
+            window.location.href = "/blog/2023/tikzjax/";
           
         },
       },{id: "post-a-post-with-bibliography",
@@ -248,7 +248,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2023/post-bibliography/";
+            window.location.href = "/blog/2023/post-bibliography/";
           
         },
       },{id: "post-a-post-with-jupyter-notebook",
@@ -259,7 +259,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2023/jupyter-notebook/";
+            window.location.href = "/blog/2023/jupyter-notebook/";
           
         },
       },{id: "post-a-post-with-custom-blockquotes",
@@ -270,7 +270,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2023/custom-blockquotes/";
+            window.location.href = "/blog/2023/custom-blockquotes/";
           
         },
       },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
@@ -281,7 +281,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2023/sidebar-table-of-contents/";
+            window.location.href = "/blog/2023/sidebar-table-of-contents/";
           
         },
       },{id: "post-a-post-with-audios",
@@ -292,7 +292,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2023/audios/";
+            window.location.href = "/blog/2023/audios/";
           
         },
       },{id: "post-a-post-with-videos",
@@ -303,7 +303,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2023/videos/";
+            window.location.href = "/blog/2023/videos/";
           
         },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
@@ -314,7 +314,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2023/tables/";
+            window.location.href = "/blog/2023/tables/";
           
         },
       },{id: "post-a-post-with-table-of-contents",
@@ -325,7 +325,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2023/table-of-contents/";
+            window.location.href = "/blog/2023/table-of-contents/";
           
         },
       },{id: "post-a-post-with-giscus-comments",
@@ -336,7 +336,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2022/giscus-comments/";
+            window.location.href = "/blog/2022/giscus-comments/";
           
         },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
@@ -358,7 +358,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/assets/pdf/example_pdf.pdf";
+            window.location.href = "/assets/pdf/example_pdf.pdf";
           
         },
       },{id: "post-a-post-with-diagrams",
@@ -369,7 +369,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2021/diagrams/";
+            window.location.href = "/blog/2021/diagrams/";
           
         },
       },{id: "post-a-distill-style-blog-post",
@@ -380,7 +380,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2021/distill/";
+            window.location.href = "/blog/2021/distill/";
           
         },
       },{id: "post-a-post-with-github-metadata",
@@ -391,7 +391,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2020/github-metadata/";
+            window.location.href = "/blog/2020/github-metadata/";
           
         },
       },{id: "post-a-post-with-twitter",
@@ -402,7 +402,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2020/twitter/";
+            window.location.href = "/blog/2020/twitter/";
           
         },
       },{id: "post-a-post-with-disqus-comments",
@@ -413,7 +413,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2015/disqus-comments/";
+            window.location.href = "/blog/2015/disqus-comments/";
           
         },
       },{id: "post-a-post-with-math",
@@ -424,7 +424,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2015/math/";
+            window.location.href = "/blog/2015/math/";
           
         },
       },{id: "post-a-post-with-code",
@@ -435,7 +435,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2015/code/";
+            window.location.href = "/blog/2015/code/";
           
         },
       },{id: "post-a-post-with-images",
@@ -446,7 +446,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2015/images/";
+            window.location.href = "/blog/2015/images/";
           
         },
       },{id: "post-a-post-with-formatting-and-links",
@@ -457,14 +457,14 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/https://mingwei-liu.github.io/blog/2015/formatting-and-links/";
+            window.location.href = "/blog/2015/formatting-and-links/";
           
         },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/https://mingwei-liu.github.io/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -472,7 +472,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/https://mingwei-liu.github.io/news/announcement_2/";
+              window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -552,57 +552,57 @@ ninja.data = [{
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/https://mingwei-liu.github.io/projects/1_project/";
+              window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/https://mingwei-liu.github.io/projects/2_project/";
+              window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
-              window.location.href = "/https://mingwei-liu.github.io/projects/3_project/";
+              window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
-              window.location.href = "/https://mingwei-liu.github.io/projects/4_project/";
+              window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
-              window.location.href = "/https://mingwei-liu.github.io/projects/5_project/";
+              window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
-              window.location.href = "/https://mingwei-liu.github.io/projects/6_project/";
+              window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/https://mingwei-liu.github.io/projects/7_project/";
+              window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/https://mingwei-liu.github.io/projects/8_project/";
+              window.location.href = "/projects/8_project/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
-              window.location.href = "/https://mingwei-liu.github.io/projects/9_project/";
+              window.location.href = "/projects/9_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
-              window.location.href = "/https://mingwei-liu.github.io/projects/data-science-fundamentals/";
+              window.location.href = "/projects/data-science-fundamentals/";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
-              window.location.href = "/https://mingwei-liu.github.io/projects/introduction-to-machine-learning/";
+              window.location.href = "/projects/introduction-to-machine-learning/";
             },},{
         id: 'social-email',
         title: 'email',
