@@ -25,8 +25,20 @@
 "ESEC/FSE 2019":
   url: https://esec-fse19.ut.ee/
 
+"ESEC/FSE 2025":
+  url: https://conf.researchr.org/home/fse-2025
+
+"ESEC/FSE 2026":
+  url: https://conf.researchr.org/home/fse-2026
+
 "ICSE 2024":
   url: https://conf.researchr.org/home/icse-2024
+
+"ICSE 2025":
+  url: https://conf.researchr.org/home/icse-2025
+
+"ICSE 2026":
+  url: https://conf.researchr.org/home/icse-2026
 
 "arXiv":
   url: https://arxiv.org/
