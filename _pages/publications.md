@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: "Publications (21): First Author (11), Corresponding Author(3). CCF-A (13): First Author (7), Corresponding Author (2)."
+description: "Publications (30+): First Author (10+), Corresponding Author(10+). CCF-A (20+)"
 nav: true
 nav_order: 2
 ---
