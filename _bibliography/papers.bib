@@ -4,714 +4,714 @@
 @string{aps = {American Physical Society,}}
 
 @article{DBLP:journals/tosem/WangPXZLLM23,
-  author       = {Chong Wang and
-                  Xin Peng and
-                  Zhenchang Xing and
-                  Yue Zhang and
-                  Mingwei Liu and
-                  Rong Luo and
-                  Xiujie Meng},
-  abstract=     {When searching code developers may express additional constraints (e.g., functional constraints and nonfunctional constraints) on the implementations of desired functionalities in the queries. Existing code search tools treat the queries as a whole and ignore the different implications of different parts of the queries. Moreover, these tools usually return a ranked list of candidate code snippets without any explanations. Therefore, the developers often find it hard to choose the desired results and build confidence on them. In this paper, we conduct a developer survey to better understand and address these issues and induct some insights from the survey results. Based on the insights, we propose XCoS, an explainable code search approach based on query scoping and knowledge graph. XCoS extracts a background knowledge graph from general knowledge bases like Wikidata and Wikipedia. Given a code search query, XCoS identifies different parts (i.e., functionalities, functional constraints, nonfunctional constraints) from it and use the expressions of functionalities and functional constraints to search the codebase. It then links both the query and the candidate code snippets to the concepts in the background knowledge graph and generates explanations based on the association paths between these two parts of concepts together with relevant descriptions. XCoS uses an interactive user interface that allows the user to better understand the associations between candidate code snippets and the query from different aspects and choose the desired results. Our evaluation shows that the quality of the extracted background knowledge and the concept linkings in codebase is generally high. Furthermore, the generated explanations are considered complete, concise, and readable and the approach can help developers find the desired code snippets more accurately and confidently.},
-  title        = {XCoS: Explainable Code Search Based on Query Scoping and Knowledge
+author = {Chong Wang and
+ Xin Peng and
+ Zhenchang Xing and
+ Yue Zhang and
+ Mingwei Liu and
+ Rong Luo and
+ Xiujie Meng},
+abstract =     {When searching code developers may express additional constraints (e.g., functional constraints and nonfunctional constraints) on the implementations of desired functionalities in the queries. Existing code search tools treat the queries as a whole and ignore the different implications of different parts of the queries. Moreover, these tools usually return a ranked list of candidate code snippets without any explanations. Therefore, the developers often find it hard to choose the desired results and build confidence on them. In this paper, we conduct a developer survey to better understand and address these issues and induct some insights from the survey results. Based on the insights, we propose XCoS, an explainable code search approach based on query scoping and knowledge graph. XCoS extracts a background knowledge graph from general knowledge bases like Wikidata and Wikipedia. Given a code search query, XCoS identifies different parts (i.e., functionalities, functional constraints, nonfunctional constraints) from it and use the expressions of functionalities and functional constraints to search the codebase. It then links both the query and the candidate code snippets to the concepts in the background knowledge graph and generates explanations based on the association paths between these two parts of concepts together with relevant descriptions. XCoS uses an interactive user interface that allows the user to better understand the associations between candidate code snippets and the query from different aspects and choose the desired results. Our evaluation shows that the quality of the extracted background knowledge and the concept linkings in codebase is generally high. Furthermore, the generated explanations are considered complete, concise, and readable and the approach can help developers find the desired code snippets more accurately and confidently.},
+title = {XCoS: Explainable Code Search Based on Query Scoping and Knowledge
                   Graph},
-  journal      = {{ACM} Trans. Softw. Eng. Methodol.},
-  volume       = {32},
-  number       = {6},
-  pages        = {140:1--140:28},
-  year         = {2023},
-  url          = {https://doi.org/10.1145/3593800},
-  doi          = {10.1145/3593800},
-  timestamp    = {Thu, 09 Nov 2023 00:00:00 +0100},
-  biburl       = {https://dblp.org/rec/journals/tosem/WangPXZLLM23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={TOSEM2023XCoS.pdf},
-  bibtex_show={true},
-  altmetric={true},
-  dimensions={true},
-  abbr={TOSEM},
+journal = {{ACM} Trans. Softw. Eng. Methodol.},
+volume = {32},
+number = {6},
+pages = {140:1--140:28},
+year = {2023},
+url = {https://doi.org/10.1145/3593800},
+doi = {10.1145/3593800},
+timestamp = {Thu, 09 Nov 2023 00:00:00 +0100},
+biburl = {https://dblp.org/rec/journals/tosem/WangPXZLLM23.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={TOSEM2023XCoS.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={TOSEM},
 }
 
 @article{DBLP:journals/tse/LiuZPYWS23,
-  author       = {Mingwei Liu and
-                  Chengyuan Zhao and
-                  Xin Peng and
-                  Simin Yu and
-                  Haofen Wang and
-                  Chaofeng Sha},
-  abstract={AI applications often use ML/DL (Machine Learning/Deep Learning) models to implement specific AI tasks. As application developers usually are not AI experts, they often choose to integrate existing implementations of ML/DL models as libraries for their AI tasks. As an active research area, AI attracts many researchers and produces a lot of papers every year. Many of the papers propose ML/DL models for specific tasks and provide their implementations. However, it is not easy for developers to find ML/DL libraries that are suitable for their tasks. The challenges lie in not only the fast development of AI application domains and techniques, but also the lack of detailed information of the libraries such as environmental dependencies and supporting resources. In this paper, we conduct an empirical study on ML/DL library seeking questions on Stack Overflow to understand the developers’ requirements for ML/DL libraries. Based on the findings of the study, we propose a task-oriented ML/DL library recommendation approach, called MLTaskKG. It constructs a knowledge graph that captures AI tasks, ML/DL models, model implementations, repositories, and their relationships by extracting knowledge from different sources such as ML/DL resource websites, papers, ML/DL frameworks, and repositories. Based on the knowledge graph, MLTaskKG recommends ML/DL libraries for developers by matching their requirements on tasks, model characteristics, and implementation information. Our evaluation shows that 92.8% of the tuples sampled from the resulting knowledge graph are correct, demonstrating the high quality of the knowledge graph. A further experiment shows that MLTaskKG can help developers find suitable ML/DL libraries using 47.6% shorter time and with 68.4% higher satisfaction.},
-  title        = {Task-Oriented {ML/DL} Library Recommendation Based on a Knowledge
+author = {Mingwei Liu and
+ Chengyuan Zhao and
+ Xin Peng and
+ Simin Yu and
+ Haofen Wang and
+ Chaofeng Sha},
+abstract ={AI applications often use ML/DL (Machine Learning/Deep Learning) models to implement specific AI tasks. As application developers usually are not AI experts, they often choose to integrate existing implementations of ML/DL models as libraries for their AI tasks. As an active research area, AI attracts many researchers and produces a lot of papers every year. Many of the papers propose ML/DL models for specific tasks and provide their implementations. However, it is not easy for developers to find ML/DL libraries that are suitable for their tasks. The challenges lie in not only the fast development of AI application domains and techniques, but also the lack of detailed information of the libraries such as environmental dependencies and supporting resources. In this paper, we conduct an empirical study on ML/DL library seeking questions on Stack Overflow to understand the developers’ requirements for ML/DL libraries. Based on the findings of the study, we propose a task-oriented ML/DL library recommendation approach, called MLTaskKG. It constructs a knowledge graph that captures AI tasks, ML/DL models, model implementations, repositories, and their relationships by extracting knowledge from different sources such as ML/DL resource websites, papers, ML/DL frameworks, and repositories. Based on the knowledge graph, MLTaskKG recommends ML/DL libraries for developers by matching their requirements on tasks, model characteristics, and implementation information. Our evaluation shows that 92.8% of the tuples sampled from the resulting knowledge graph are correct, demonstrating the high quality of the knowledge graph. A further experiment shows that MLTaskKG can help developers find suitable ML/DL libraries using 47.6% shorter time and with 68.4% higher satisfaction.},
+title = {Task-Oriented {ML/DL} Library Recommendation Based on a Knowledge
                   Graph},
-  journal      = {{IEEE} Trans. Software Eng.},
-  volume       = {49},
-  number       = {8},
-  pages        = {4081--4096},
-  year         = {2023},
-  url          = {https://doi.org/10.1109/TSE.2023.3285280},
-  doi          = {10.1109/TSE.2023.3285280},
-  timestamp    = {Thu, 31 Aug 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/tse/LiuZPYWS23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={TSE2023-AITaskKG.pdf},
-  bibtex_show={true},
-  selected     = {false},
-  altmetric={true},
-  dimensions={true},
-  abbr={TSE},
+journal = {{IEEE} Trans. Software Eng.},
+volume = {49},
+number = {8},
+pages = {4081--4096},
+year = {2023},
+url = {https://doi.org/10.1109/TSE.2023.3285280},
+doi = {10.1109/TSE.2023.3285280},
+timestamp = {Thu, 31 Aug 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/journals/tse/LiuZPYWS23.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={TSE2023-AITaskKG.pdf},
+bibtex_show ={true},
+selected = {false},
+altmetric ={true},
+dimensions ={true},
+abbr ={TSE},
 
 }
 
 @inproceedings{DBLP:conf/icsm/0002Y0DYXZ23,
-  author       = {Mingwei Liu and
-                  Simin Yu and
-                  Xin Peng and
-                  Xueying Du and
-                  Tianyong Yang and
-                  Huanjun Xu and
-                  Gaoyang Zhang},
-  abstract={Developers often seek solutions for their programming problems by retrieving existing questions on technical Q&A sites such as Stack Overflow. In many cases, they fail to find relevant questions due to the knowledge gap between the questions and the queries or feel it hard to choose the desired questions from the returned results due to the lack of explanations about the relevance. In this paper, we propose KGXQR, a knowledge graph based explainable question retrieval approach for programming tasks. It uses BERT-based sentence similarity to retrieve candidate Stack Overflow questions that are relevant to a given query. To bridge the knowledge gap and enhance the performance of question retrieval, it constructs a software development related concept knowledge graph and trains a question relevance prediction model to re-rank the candidate questions. The model is trained based on a combined sentence representation of BERT-based sentence embedding and graph-based concept embedding. To help understand the relevance of the returned Stack Overflow questions, KGXQR further generates explanations based on the association paths between the concepts involved in the query and the Stack Overflow questions. The evaluation shows that KGXQR outperforms the baselines in terms of accuracy, recall, MRR, and MAP and the generated explanations help the users to find the desired questions faster and more accurately.},
-  title        = {Knowledge Graph based Explainable Question Retrieval for Programming
-                  Tasks},
-  booktitle    = {{IEEE} International Conference on Software Maintenance and Evolution,
+author = {Mingwei Liu and
+ Simin Yu and
+ Xin Peng and
+ Xueying Du and
+ Tianyong Yang and
+ Huanjun Xu and
+ Gaoyang Zhang},
+abstract ={Developers often seek solutions for their programming problems by retrieving existing questions on technical Q&A sites such as Stack Overflow. In many cases, they fail to find relevant questions due to the knowledge gap between the questions and the queries or feel it hard to choose the desired questions from the returned results due to the lack of explanations about the relevance. In this paper, we propose KGXQR, a knowledge graph based explainable question retrieval approach for programming tasks. It uses BERT-based sentence similarity to retrieve candidate Stack Overflow questions that are relevant to a given query. To bridge the knowledge gap and enhance the performance of question retrieval, it constructs a software development related concept knowledge graph and trains a question relevance prediction model to re-rank the candidate questions. The model is trained based on a combined sentence representation of BERT-based sentence embedding and graph-based concept embedding. To help understand the relevance of the returned Stack Overflow questions, KGXQR further generates explanations based on the association paths between the concepts involved in the query and the Stack Overflow questions. The evaluation shows that KGXQR outperforms the baselines in terms of accuracy, recall, MRR, and MAP and the generated explanations help the users to find the desired questions faster and more accurately.},
+title = {Knowledge Graph based Explainable Question Retrieval for Programming
+ Tasks},
+booktitle = {{IEEE} International Conference on Software Maintenance and Evolution,
                   {ICSME} 2023, Bogot{\'{a}}, Colombia, October 1-6, 2023},
-  pages        = {123--135},
-  publisher    = {{IEEE}},
-  year         = {2023},
-  url          = {https://doi.org/10.1109/ICSME58846.2023.00023},
-  doi          = {10.1109/ICSME58846.2023.00023},
-  timestamp    = {Tue, 09 Jan 2024 17:27:46 +0100},
-  biburl       = {https://dblp.org/rec/conf/icsm/0002Y0DYXZ23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-    pdf={icsme2023-KG4QuesRecomm.pdf},
-      bibtex_show={true},
-  selected     = {false},
-  altmetric={true},
-dimensions={true},
- abbr={ICSME 2023},
+pages = {123--135},
+publisher = {{IEEE}},
+year = {2023},
+url = {https://doi.org/10.1109/ICSME58846.2023.00023},
+doi = {10.1109/ICSME58846.2023.00023},
+timestamp = {Tue, 09 Jan 2024 17:27:46 +0100},
+biburl = {https://dblp.org/rec/conf/icsm/0002Y0DYXZ23.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={icsme2023-KG4QuesRecomm.pdf},
+bibtex_show ={true},
+selected = {false},
+altmetric ={true},
+dimensions ={true},
+abbr ={ICSME 2023},
 
 
 }
 
 @inproceedings{DBLP:conf/kbse/LiuYLDWP23,
-  author       = {Mingwei Liu and
-                  Tianyong Yang and
-                  Yiling Lou and
-                  Xueying Du and
-                  Ying Wang and
-                  Xin Peng},
-                  abstract={Automated code generation has been extensively studied in recent literature. In this work, we first survey 66 participants to motivate a more pragmatic code generation scenario, i.e., library-oriented code generation, where the generated code should implement the functionally of the natural language query with the given library. We then revisit existing learning-based code generation techniques and find they have limited effectiveness in such a library-oriented code generation scenario. To address this limitation, we propose a novel library-oriented code generation technique, CodeGen4Libs, which incorporates two stages: import generation and code generation. The import generation stage generates import statements for the natural language query with the given third-party libraries, while the code generation stage generates concrete code based on the generated imports and the query. To evaluate the effectiveness of our approach, we conduct extensive experiments on a dataset of 403,780 data items. Our results demonstrate that CodeGen4Libs outperforms baseline models in both import generation and code generation stages, achieving improvements of up to 97.4% on EM (Exact Match), 54.5% on BLEU, and 53.5% on Hit@All. Overall, our proposed CodeGen4Libs approach shows promising results in generating high-quality code with specific third-party libraries, which can improve the efficiency and effectiveness of software development.},
-  title        = {CodeGen4Libs: {A} Two-Stage Approach for Library-Oriented Code Generation},
-  booktitle    = {38th {IEEE/ACM} International Conference on Automated Software Engineering,
+author = {Mingwei Liu and
+ Tianyong Yang and
+ Yiling Lou and
+ Xueying Du and
+ Ying Wang and
+ Xin Peng},
+abstract ={Automated code generation has been extensively studied in recent literature. In this work, we first survey 66 participants to motivate a more pragmatic code generation scenario, i.e., library-oriented code generation, where the generated code should implement the functionally of the natural language query with the given library. We then revisit existing learning-based code generation techniques and find they have limited effectiveness in such a library-oriented code generation scenario. To address this limitation, we propose a novel library-oriented code generation technique, CodeGen4Libs, which incorporates two stages: import generation and code generation. The import generation stage generates import statements for the natural language query with the given third-party libraries, while the code generation stage generates concrete code based on the generated imports and the query. To evaluate the effectiveness of our approach, we conduct extensive experiments on a dataset of 403,780 data items. Our results demonstrate that CodeGen4Libs outperforms baseline models in both import generation and code generation stages, achieving improvements of up to 97.4% on EM (Exact Match), 54.5% on BLEU, and 53.5% on Hit@All. Overall, our proposed CodeGen4Libs approach shows promising results in generating high-quality code with specific third-party libraries, which can improve the efficiency and effectiveness of software development.},
+title = {CodeGen4Libs: {A} Two-Stage Approach for Library-Oriented Code Generation},
+booktitle = {38th {IEEE/ACM} International Conference on Automated Software Engineering,
                   {ASE} 2023, Luxembourg, September 11-15, 2023},
-  pages        = {434--445},
-  publisher    = {{IEEE}},
-  year         = {2023},
-  url          = {https://doi.org/10.1109/ASE56229.2023.00159},
-  doi          = {10.1109/ASE56229.2023.00159},
-  timestamp    = {Thu, 16 Nov 2023 09:03:51 +0100},
-  biburl       = {https://dblp.org/rec/conf/kbse/LiuYLDWP23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  selected     = {false},
-  pdf={ase2023-CodeGen4Libs.pdf},
-  bibtex_show={true},
-  code={https://github.com/FudanSELab/codegen4libs},
-  dataset={https://huggingface.co/datasets/FudanSELab/CodeGen4Libs},
-  altmetric={true},
-  dimensions={true},
-  abbr={ASE 2023},
-  google_scholar_id = {738O_yMBCRsC}
+pages = {434--445},
+publisher = {{IEEE}},
+year = {2023},
+url = {https://doi.org/10.1109/ASE56229.2023.00159},
+doi = {10.1109/ASE56229.2023.00159},
+timestamp = {Thu, 16 Nov 2023 09:03:51 +0100},
+biburl = {https://dblp.org/rec/conf/kbse/LiuYLDWP23.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+selected = {false},
+pdf ={ase2023-CodeGen4Libs.pdf},
+bibtex_show ={true},
+code ={https://github.com/FudanSELab/codegen4libs},
+dataset ={https://huggingface.co/datasets/FudanSELab/CodeGen4Libs},
+altmetric ={true},
+dimensions ={true},
+abbr ={ASE 2023},
+google_scholar_id = {738O_yMBCRsC}
 
 }
 
 @inproceedings{DBLP:conf/sigsoft/DuLL0Y23,
-  author       = {Xueying Du and
-                  Yiling Lou and
-                  Mingwei Liu and
-                  Xin Peng and
-                  Tianyong Yang},
-  editor       = {Satish Chandra and
-                  Kelly Blincoe and
-                  Paolo Tonella},
-  abstract={Fixing crashes is challenging, and developers often discuss their encountered crashes and refer to similar crashes and solutions on online Q&A forums (e.g., Stack Overflow). However, a crash often involves very complex contexts, which includes different contextual elements, e.g., purposes, environments, code, and crash traces. Existing crash solution recommendation or general solution recommendation techniques only use an incomplete context or treat the entire context as pure texts to search relevant solutions for a given crash, resulting in inaccurate recommendation results. In this work, we propose a novel crash solution knowledge graph (KG) to summarize the complete crash context and its solution with a graph-structured representation. To construct the crash solution KG automatically, we propose to leverage prompt learning to construct the KG from SO threads with a small set of labeled data. Based on the constructed KG, we further propose a novel KG-based crash solution recommendation technique KG4CraSolver, which precisely finds the relevant SO thread for an encountered crash by finely analyzing and matching the complete crash context based on the crash solution KG. The evaluation results show that the constructed KG is of high quality and KG4CraSolver outperforms baselines in terms of all metrics (e.g., 13.4%-113.4% MRR improvements). Moreover, we perform a user study and find that KG4CraSolver helps participants find crash solutions 34.4% faster and 63.3% more accurately.},
-  title        = {KG4CraSolver: Recommending Crash Solutions via Knowledge Graph},
-  booktitle    = {Proceedings of the 31st {ACM} Joint European Software Engineering
-                  Conference and Symposium on the Foundations of Software Engineering,
+author = {Xueying Du and
+ Yiling Lou and
+ Mingwei Liu and
+ Xin Peng and
+ Tianyong Yang},
+editor = {Satish Chandra and
+ Kelly Blincoe and
+ Paolo Tonella},
+abstract ={Fixing crashes is challenging, and developers often discuss their encountered crashes and refer to similar crashes and solutions on online Q&A forums (e.g., Stack Overflow). However, a crash often involves very complex contexts, which includes different contextual elements, e.g., purposes, environments, code, and crash traces. Existing crash solution recommendation or general solution recommendation techniques only use an incomplete context or treat the entire context as pure texts to search relevant solutions for a given crash, resulting in inaccurate recommendation results. In this work, we propose a novel crash solution knowledge graph (KG) to summarize the complete crash context and its solution with a graph-structured representation. To construct the crash solution KG automatically, we propose to leverage prompt learning to construct the KG from SO threads with a small set of labeled data. Based on the constructed KG, we further propose a novel KG-based crash solution recommendation technique KG4CraSolver, which precisely finds the relevant SO thread for an encountered crash by finely analyzing and matching the complete crash context based on the crash solution KG. The evaluation results show that the constructed KG is of high quality and KG4CraSolver outperforms baselines in terms of all metrics (e.g., 13.4%-113.4% MRR improvements). Moreover, we perform a user study and find that KG4CraSolver helps participants find crash solutions 34.4% faster and 63.3% more accurately.},
+title = {KG4CraSolver: Recommending Crash Solutions via Knowledge Graph},
+booktitle = {Proceedings of the 31st {ACM} Joint European Software Engineering
+ Conference and Symposium on the Foundations of Software Engineering,
                   {ESEC/FSE} 2023, San Francisco, CA, USA, December 3-9, 2023},
-  pages        = {1242--1254},
-  publisher    = {{ACM}},
-  year         = {2023},
-  url          = {https://doi.org/10.1145/3611643.3616317},
-  doi          = {10.1145/3611643.3616317},
-  timestamp    = {Mon, 04 Dec 2023 12:10:56 +0100},
-  biburl       = {https://dblp.org/rec/conf/sigsoft/DuLL0Y23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  selected     = {true},
-  pdf={FSE2023-KG4CraSolver.pdf},
-  bibtex_show={true},
-  altmetric={true},
-  dimensions={true},
-  abbr={ESEC/FSE 2023},
+pages = {1242--1254},
+publisher = {{ACM}},
+year = {2023},
+url = {https://doi.org/10.1145/3611643.3616317},
+doi = {10.1145/3611643.3616317},
+timestamp = {Mon, 04 Dec 2023 12:10:56 +0100},
+biburl = {https://dblp.org/rec/conf/sigsoft/DuLL0Y23.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+selected = {true},
+pdf ={FSE2023-KG4CraSolver.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={ESEC/FSE 2023},
 }
 
 @inproceedings{DBLP:conf/sigsoft/0002YL0ZDY23,
-  author       = {Mingwei Liu and
-                  Yanjun Yang and
-                  Yiling Lou and
-                  Xin Peng and
-                  Zhong Zhou and
-                  Xueying Du and
-                  Tianyong Yang},
-  editor       = {Satish Chandra and
-                  Kelly Blincoe and
-                  Paolo Tonella},
-  abstract={Library migration, which replaces the current library with a different one to retain the same software behavior, is common in software evolution. An essential part of this is finding an analogous API for the desired functionality. However, due to the multitude of libraries/APIs, manually finding such an API is time-consuming and error-prone. Researchers created automated analogical API recommendation techniques, notably documentation-based methods. Despite potential, these methods have limitations, e.g., incomplete semantic understanding in documentation and scalability issues. In this study, we present KGE4AR, a novel documentation-based approach using knowledge graph (KG) embedding for recommending analogical APIs during library migration. KGE4AR introduces a unified API KG to comprehensively represent documentation knowledge, capturing high-level semantics. It further embeds this unified API KG into vectors for efficient, scalable similarity calculation. We assess KGE4AR with 35,773 Java libraries in two scenarios, with and without target libraries. KGE4AR notably outperforms state-of-the-art techniques (e.g., 47.1%-143.0% and 11.7%-80.6% MRR improvements), showcasing scalability with growing library counts.},
-  title        = {Recommending Analogical APIs via Knowledge Graph Embedding},
-  booktitle    = {Proceedings of the 31st {ACM} Joint European Software Engineering
-                  Conference and Symposium on the Foundations of Software Engineering,
+author = {Mingwei Liu and
+ Yanjun Yang and
+ Yiling Lou and
+ Xin Peng and
+ Zhong Zhou and
+ Xueying Du and
+ Tianyong Yang},
+editor = {Satish Chandra and
+ Kelly Blincoe and
+ Paolo Tonella},
+abstract ={Library migration, which replaces the current library with a different one to retain the same software behavior, is common in software evolution. An essential part of this is finding an analogous API for the desired functionality. However, due to the multitude of libraries/APIs, manually finding such an API is time-consuming and error-prone. Researchers created automated analogical API recommendation techniques, notably documentation-based methods. Despite potential, these methods have limitations, e.g., incomplete semantic understanding in documentation and scalability issues. In this study, we present KGE4AR, a novel documentation-based approach using knowledge graph (KG) embedding for recommending analogical APIs during library migration. KGE4AR introduces a unified API KG to comprehensively represent documentation knowledge, capturing high-level semantics. It further embeds this unified API KG into vectors for efficient, scalable similarity calculation. We assess KGE4AR with 35,773 Java libraries in two scenarios, with and without target libraries. KGE4AR notably outperforms state-of-the-art techniques (e.g., 47.1%-143.0% and 11.7%-80.6% MRR improvements), showcasing scalability with growing library counts.},
+title = {Recommending Analogical APIs via Knowledge Graph Embedding},
+booktitle = {Proceedings of the 31st {ACM} Joint European Software Engineering
+ Conference and Symposium on the Foundations of Software Engineering,
                   {ESEC/FSE} 2023, San Francisco, CA, USA, December 3-9, 2023},
-  pages        = {1496--1508},
-  publisher    = {{ACM}},
-  year         = {2023},
-  url          = {https://doi.org/10.1145/3611643.3616305},
-  doi          = {10.1145/3611643.3616305},
-  timestamp    = {Mon, 04 Dec 2023 11:02:39 +0100},
-  biburl       = {https://dblp.org/rec/conf/sigsoft/0002YL0ZDY23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  selected     = {true},
-  pdf={FSE2023-KG4AR.pdf},
-    bibtex_show={true},
-    award={ACM SIGSOFT Distinguished Paper Award},
-  altmetric={true},
-dimensions={true},
- abbr={ESEC/FSE 2023},
+pages = {1496--1508},
+publisher = {{ACM}},
+year = {2023},
+url = {https://doi.org/10.1145/3611643.3616305},
+doi = {10.1145/3611643.3616305},
+timestamp = {Mon, 04 Dec 2023 11:02:39 +0100},
+biburl = {https://dblp.org/rec/conf/sigsoft/0002YL0ZDY23.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+selected = {true},
+pdf ={FSE2023-KG4AR.pdf},
+bibtex_show ={true},
+award ={ACM SIGSOFT Distinguished Paper Award},
+altmetric ={true},
+dimensions ={true},
+abbr ={ESEC/FSE 2023},
 
 }
 
 @article{DBLP:journals/corr/abs-2305-04207,
-  author       = {Zhiqiang Yuan and
-                  Yiling Lou and
-                  Mingwei Liu and
-                  Shiji Ding and
-                  Kaixin Wang and
-                  Yixuan Chen and
-                  Xin Peng},
-  title        = {No More Manual Tests? Evaluating and Improving ChatGPT for Unit Test
-                  Generation},
-  journal      = {CoRR},
-  volume       = {abs/2305.04207},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2305.04207},
-  doi          = {10.48550/ARXIV.2305.04207},
-  eprinttype    = {arXiv},
-  eprint       = {2305.04207},
-  timestamp    = {Tue, 13 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2305-04207.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={arxiv2023-chattester.pdf},
-  bibtex_show={true},
-  arxiv={2305.04207},
-  altmetric={true},
-dimensions={true},
- abbr={arXiv},
-  google_scholar_id = {tYavs44e6CUC}
+author = {Zhiqiang Yuan and
+ Yiling Lou and
+ Mingwei Liu and
+ Shiji Ding and
+ Kaixin Wang and
+ Yixuan Chen and
+ Xin Peng},
+title = {No More Manual Tests? Evaluating and Improving ChatGPT for Unit Test
+ Generation},
+journal = {CoRR},
+volume = {abs/2305.04207},
+year = {2023},
+url = {https://doi.org/10.48550/arXiv.2305.04207},
+doi = {10.48550/ARXIV.2305.04207},
+eprinttype = {arXiv},
+eprint = {2305.04207},
+timestamp = {Tue, 13 Jun 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/journals/corr/abs-2305-04207.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={arxiv2023-chattester.pdf},
+bibtex_show ={true},
+arxiv ={2305.04207},
+altmetric ={true},
+dimensions ={true},
+abbr ={arXiv},
+google_scholar_id = {tYavs44e6CUC}
 
 
 }
 
 @article{DBLP:journals/corr/abs-2308-01240,
-  author       = {Zhiqiang Yuan and
-                  Junwei Liu and
-                  Qiancheng Zi and
-                  Mingwei Liu and
-                  Xin Peng and
-                  Yiling Lou},
-  title        = {Evaluating Instruction-Tuned Large Language Models on Code Comprehension
-                  and Generation},
-  journal      = {CoRR},
-  volume       = {abs/2308.01240},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2308.01240},
-  doi          = {10.48550/ARXIV.2308.01240},
-  eprinttype    = {arXiv},
-  eprint       = {2308.01240},
-  timestamp    = {Mon, 21 Aug 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2308-01240.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={arxiv2023-instruct-tuning.pdf},
-    bibtex_show={true},
-    arxiv={2308.01240},
-  altmetric={true},
-dimensions={true},
- abbr={arXiv},
+author = {Zhiqiang Yuan and
+ Junwei Liu and
+ Qiancheng Zi and
+ Mingwei Liu and
+ Xin Peng and
+ Yiling Lou},
+title = {Evaluating Instruction-Tuned Large Language Models on Code Comprehension
+ and Generation},
+journal = {CoRR},
+volume = {abs/2308.01240},
+year = {2023},
+url = {https://doi.org/10.48550/arXiv.2308.01240},
+doi = {10.48550/ARXIV.2308.01240},
+eprinttype = {arXiv},
+eprint = {2308.01240},
+timestamp = {Mon, 21 Aug 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/journals/corr/abs-2308-01240.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={arxiv2023-instruct-tuning.pdf},
+bibtex_show ={true},
+arxiv ={2308.01240},
+altmetric ={true},
+dimensions ={true},
+abbr ={arXiv},
 
 }
 
 @inproceedings{DBLP:journals/corr/abs-2308-01861,
-  author       = {Xueying Du and
-                  Mingwei Liu and
-                  Kaixin Wang and
-                  Hanlin Wang and
-                  Junwei Liu and
-                  Yixuan Chen and
-                  Jiayi Feng and
-                  Chaofeng Sha and
-                  Xin Peng and
-                  Yiling Lou},
-  abstract={Recently, many large language models (LLMs) have been proposed, showing advanced proficiency in code generation. Meanwhile, many efforts have been dedicated to evaluating LLMs on code generation benchmarks such as HumanEval. Although being very helpful for comparing different LLMs, existing evaluation focuses on a simple code generation scenario (i.e., function-level or statement-level code generation), which mainly asks LLMs to generate one single code unit (e.g., a function or a statement) for the given natural language description. Such evaluation focuses on generating independent and often small-scale code units, thus leaving it unclear how LLMs perform in real-world software development scenarios. To fill this knowledge gap, we make the first attempt to evaluate LLMs in a more challenging code generation scenario, i.e., classlevel code generation. Compared with existing code generation benchmarks, it better reflects real-world software development scenarios due to it comprising broader contextual dependencies and multiple, interdependent units of code. We first manually construct the first class-level code generation benchmark ClassEval of 100 class-level Python code generation tasks with approximately 500 person-hours. Based on the new benchmark ClassEval, we then perform the first study of 11 state-of-the-art LLMs on class-level code generation. Based on our results, we find that all LLMs perform much worse on class-level code generation compared to the methodlevel. While GPT models still dominate other LLMs on class-level code generation, the performance rankings of other models on method-level code generation no longer holds for class-level code generation. Besides, most models (except GPT models) perform better when generating the class method by method; and they have the limited ability of generating dependent code. Based on our findings, we call for software engineering (SE) researchers’ expertise to build more LLM benchmarks based on practical and complicated software development scenarios},
-  title        = {Evaluating Large Language Models in Class-Level Code Generation},
-  booktitle    = {Proceedings of the 46th {IEEE/ACM} International Conference on Software Engineering, {ICSE} 2024,  Lisbon , Portugal, April 14 - 20, 2024},
-  pages        = {1496--1508},
-  publisher    = {{ACM}},
-  year         = {2024},
-  url          = {https://doi.org/10.1145/3597503.3639219},
-  doi          = {10.1145/3597503.3639219},
-  timestamp    = {Mon, 04 Dec 2023 11:02:39 +0100},
-  biburl       = {https://dblp.org/rec/conf/sigsoft/0002YL0ZDY23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  selected     = {true},
-  pdf={ICSE2024ClassEval-V2.pdf},
-  bibtex_show={true},
-  arxiv={2308.01861},
-  code={https://github.com/FudanSELab/ClassEval},
-  dataset={https://huggingface.co/datasets/FudanSELab/ClassEval},
-  preview={ICSE2024ClassEval-Preview.png},
-  altmetric={true},
-    altmetric={true},
-dimensions={true},
- abbr={ICSE 2024},
-   google_scholar_id = {5ugPr518TE4C}
+author = {Xueying Du and
+ Mingwei Liu and
+ Kaixin Wang and
+ Hanlin Wang and
+ Junwei Liu and
+ Yixuan Chen and
+ Jiayi Feng and
+ Chaofeng Sha and
+ Xin Peng and
+ Yiling Lou},
+abstract ={Recently, many large language models (LLMs) have been proposed, showing advanced proficiency in code generation. Meanwhile, many efforts have been dedicated to evaluating LLMs on code generation benchmarks such as HumanEval. Although being very helpful for comparing different LLMs, existing evaluation focuses on a simple code generation scenario (i.e., function-level or statement-level code generation), which mainly asks LLMs to generate one single code unit (e.g., a function or a statement) for the given natural language description. Such evaluation focuses on generating independent and often small-scale code units, thus leaving it unclear how LLMs perform in real-world software development scenarios. To fill this knowledge gap, we make the first attempt to evaluate LLMs in a more challenging code generation scenario, i.e., classlevel code generation. Compared with existing code generation benchmarks, it better reflects real-world software development scenarios due to it comprising broader contextual dependencies and multiple, interdependent units of code. We first manually construct the first class-level code generation benchmark ClassEval of 100 class-level Python code generation tasks with approximately 500 person-hours. Based on the new benchmark ClassEval, we then perform the first study of 11 state-of-the-art LLMs on class-level code generation. Based on our results, we find that all LLMs perform much worse on class-level code generation compared to the methodlevel. While GPT models still dominate other LLMs on class-level code generation, the performance rankings of other models on method-level code generation no longer holds for class-level code generation. Besides, most models (except GPT models) perform better when generating the class method by method; and they have the limited ability of generating dependent code. Based on our findings, we call for software engineering (SE) researchers’ expertise to build more LLM benchmarks based on practical and complicated software development scenarios},
+title = {Evaluating Large Language Models in Class-Level Code Generation},
+booktitle = {Proceedings of the 46th {IEEE/ACM} International Conference on Software Engineering, {ICSE} 2024, Lisbon , Portugal, April 14 - 20, 2024},
+pages = {1496--1508},
+publisher = {{ACM}},
+year = {2024},
+url = {https://doi.org/10.1145/3597503.3639219},
+doi = {10.1145/3597503.3639219},
+timestamp = {Mon, 04 Dec 2023 11:02:39 +0100},
+biburl = {https://dblp.org/rec/conf/sigsoft/0002YL0ZDY23.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+selected = {true},
+pdf ={ICSE2024ClassEval-V2.pdf},
+bibtex_show ={true},
+arxiv ={2308.01861},
+code ={https://github.com/FudanSELab/ClassEval},
+dataset ={https://huggingface.co/datasets/FudanSELab/ClassEval},
+preview ={ICSE2024ClassEval-Preview.png},
+altmetric ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={ICSE 2024},
+google_scholar_id = {5ugPr518TE4C}
 
 }
 
 
 @article{DBLP:journals/corr/abs-2312-10448,
-  author       = {Xueying Du and
-                  Mingwei Liu and
-                  Juntao Li and
-                  Hanlin Wang and
-                  Xin Peng and
-                  Yiling Lou},
-  title        = {Resolving Crash Bugs via Large Language Models: An Empirical Study},
-  journal      = {CoRR},
-  volume       = {abs/2312.10448},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2312.10448},
-  doi          = {10.48550/ARXIV.2312.10448},
-  eprinttype    = {arXiv},
-  eprint       = {2312.10448},
-  timestamp    = {Tue, 16 Jan 2024 00:00:00 +0100},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2312-10448.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf          = {arxiv2023LLM4crashbug.pdf},
-  bibtex_show={true},
-  selected     = {false},
-  arxiv={2312.10448},
-  altmetric={true},
-dimensions={true},
- abbr={arXiv},
+author = {Xueying Du and
+ Mingwei Liu and
+ Juntao Li and
+ Hanlin Wang and
+ Xin Peng and
+ Yiling Lou},
+title = {Resolving Crash Bugs via Large Language Models: An Empirical Study},
+journal = {CoRR},
+volume = {abs/2312.10448},
+year = {2023},
+url = {https://doi.org/10.48550/arXiv.2312.10448},
+doi = {10.48550/ARXIV.2312.10448},
+eprinttype = {arXiv},
+eprint = {2312.10448},
+timestamp = {Tue, 16 Jan 2024 00:00:00 +0100},
+biburl = {https://dblp.org/rec/journals/corr/abs-2312-10448.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf = {arxiv2023LLM4crashbug.pdf},
+bibtex_show ={true},
+selected = {false},
+arxiv ={2312.10448},
+altmetric ={true},
+dimensions ={true},
+abbr ={arXiv},
 
 
 }
 
 @article{DBLP:journals/tse/LiuPMXTZ22,
-  author       = {Mingwei Liu and
-                  Xin Peng and
-                  Andrian Marcus and
-                  Shuangshuang Xing and
-                  Christoph Treude and
-                  Chengyuan Zhao},
-                  abstract={Stack Overflow (SO) provides informal documentation for APIs in response to questions that express API related developer needs. Navigating the information available on SO and getting information related to a particular API and need is challenging due to the vast amount of questions and answers and the tag-driven structure of SO. In this paper we focus on identifying and classifying fine-grained developer needs expressed in sentences of API-related SO questions, as well as the specific information types used to express such needs, and the different roles APIs play in these questions and their answers. We derive a taxonomy, complementing existing ones, through an empirical study of 266 SO posts. We then develop and evaluate an approach for the automated identification of the fine-grained developer needs in SO threads, which takes a thread as input and outputs the corresponding developer needs, the types of information expressing them, and the roles of API elements relevant to the needs. To show a practical application of our taxonomy, we introduce and evaluate an approach for the automated retrieval of SO questions, based on these developer needs.},
-  title        = {API-Related Developer Information Needs in Stack Overflow},
-  journal      = {{IEEE} Trans. Software Eng.},
-  volume       = {48},
-  number       = {11},
-  pages        = {4485--4500},
-  year         = {2022},
-  url          = {https://doi.org/10.1109/TSE.2021.3120203},
-  doi          = {10.1109/TSE.2021.3120203},
-  timestamp    = {Tue, 13 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/tse/LiuPMXTZ22.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf          = {TSE2021-DeveloperNeed.pdf},
-  bibtex_show  = {true},
-    altmetric  ={true},
-dimensions={true},
- abbr={TSE},
+author = {Mingwei Liu and
+ Xin Peng and
+ Andrian Marcus and
+ Shuangshuang Xing and
+ Christoph Treude and
+ Chengyuan Zhao},
+abstract ={Stack Overflow (SO) provides informal documentation for APIs in response to questions that express API related developer needs. Navigating the information available on SO and getting information related to a particular API and need is challenging due to the vast amount of questions and answers and the tag-driven structure of SO. In this paper we focus on identifying and classifying fine-grained developer needs expressed in sentences of API-related SO questions, as well as the specific information types used to express such needs, and the different roles APIs play in these questions and their answers. We derive a taxonomy, complementing existing ones, through an empirical study of 266 SO posts. We then develop and evaluate an approach for the automated identification of the fine-grained developer needs in SO threads, which takes a thread as input and outputs the corresponding developer needs, the types of information expressing them, and the roles of API elements relevant to the needs. To show a practical application of our taxonomy, we introduce and evaluate an approach for the automated retrieval of SO questions, based on these developer needs.},
+title = {API-Related Developer Information Needs in Stack Overflow},
+journal = {{IEEE} Trans. Software Eng.},
+volume = {48},
+number = {11},
+pages = {4485--4500},
+year = {2022},
+url = {https://doi.org/10.1109/TSE.2021.3120203},
+doi = {10.1109/TSE.2021.3120203},
+timestamp = {Tue, 13 Jun 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/journals/tse/LiuPMXTZ22.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf = {TSE2021-DeveloperNeed.pdf},
+bibtex_show = {true},
+altmetric ={true},
+dimensions ={true},
+abbr ={TSE},
 
 }
 
 @inproceedings{DBLP:conf/sigsoft/Liu0MTXXY22,
-  author       = {Mingwei Liu and
-                  Xin Peng and
-                  Andrian Marcus and
-                  Christoph Treude and
-                  Jiazhan Xie and
-                  Huanjun Xu and
-                  Yanjun Yang},
-  editor       = {Abhik Roychoudhury and
-                  Cristian Cadar and
-                  Miryung Kim},
-  abstract     ={Developers often ask how-to questions using search engines, technical Q&A communities, and interactive Q&A systems to seek help for specific programming tasks. However, they often do not formulate the questions in a specific way, making it hard for the systems to return the best answers. We propose an approach (TaskKG4Q) that interactively helps developers formulate a programming related how-to question. TaskKG4Q is using a programming task knowledge graph (task KG in short) mined from Stack Overflow questions, which provides a hierarchical conceptual structure for tasks in terms of [actions], [objects], and [constraints]. An empirical evaluation of the intrinsic quality of the task KG revealed that 75.0% of the annotated questions in the task KG are correct. The comparison between TaskKG4Q and two baselines revealed that TaskKG4Q can help developers formulate more specific how-to questions. More so, an empirical study with novice programmers revealed that they write more effective questions for finding answers to their programming tasks on Stack Overflow.},
-  title        = {How to formulate specific how-to questions in software development?},
-  booktitle    = {Proceedings of the 30th {ACM} Joint European Software Engineering
-                  Conference and Symposium on the Foundations of Software Engineering,
+author = {Mingwei Liu and
+ Xin Peng and
+ Andrian Marcus and
+ Christoph Treude and
+ Jiazhan Xie and
+ Huanjun Xu and
+ Yanjun Yang},
+editor = {Abhik Roychoudhury and
+ Cristian Cadar and
+ Miryung Kim},
+abstract ={Developers often ask how-to questions using search engines, technical Q&A communities, and interactive Q&A systems to seek help for specific programming tasks. However, they often do not formulate the questions in a specific way, making it hard for the systems to return the best answers. We propose an approach (TaskKG4Q) that interactively helps developers formulate a programming related how-to question. TaskKG4Q is using a programming task knowledge graph (task KG in short) mined from Stack Overflow questions, which provides a hierarchical conceptual structure for tasks in terms of [actions], [objects], and [constraints]. An empirical evaluation of the intrinsic quality of the task KG revealed that 75.0% of the annotated questions in the task KG are correct. The comparison between TaskKG4Q and two baselines revealed that TaskKG4Q can help developers formulate more specific how-to questions. More so, an empirical study with novice programmers revealed that they write more effective questions for finding answers to their programming tasks on Stack Overflow.},
+title = {How to formulate specific how-to questions in software development?},
+booktitle = {Proceedings of the 30th {ACM} Joint European Software Engineering
+ Conference and Symposium on the Foundations of Software Engineering,
                   {ESEC/FSE} 2022, Singapore, Singapore, November 14-18, 2022},
-  pages        = {306--318},
-  publisher    = {{ACM}},
-  year         = {2022},
-  url          = {https://doi.org/10.1145/3540250.3549160},
-  doi          = {10.1145/3540250.3549160},
-  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/sigsoft/Liu0MTXXY22.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={fse22-taskkg.pdf},
-  bibtex_show={true},
-  altmetric={true},
-  dimensions={true},
-  abbr={ESEC/FSE 2022},
+pages = {306--318},
+publisher = {{ACM}},
+year = {2022},
+url = {https://doi.org/10.1145/3540250.3549160},
+doi = {10.1145/3540250.3549160},
+timestamp = {Mon, 26 Jun 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/conf/sigsoft/Liu0MTXXY22.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={fse22-taskkg.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={ESEC/FSE 2022},
 
 }
 
 @inproceedings{DBLP:conf/sigsoft/Liu0MTBLXZ21,
-  author       = {Mingwei Liu and
-                  Xin Peng and
-                  Andrian Marcus and
-                  Christoph Treude and
-                  Xuefang Bai and
-                  Gang Lyu and
-                  Jiazhan Xie and
-                  Xiaoxin Zhang},
-  editor       = {Diomidis Spinellis and
-                  Georgios Gousios and
-                  Marsha Chechik and
-                  Massimiliano Di Penta},
-                 abstract ={Developers often rely on API documentation to learn API directives, i.e., constraints and guidelines related to API usage. Failing to follow API directives may cause defects or improper implementations. Since there are no industry-wide standards on how to document API directives, they take many forms and are often hard to understand by developers or challenging to parse with tools. In this paper, we propose a learning based approach for extracting first-order logic representations of API directives (FOL directives for short). The approach, called LEADFOL, uses a joint learning method to extract atomic formulas by identifying the predicates and arguments involved in directive sentences, and recognizes the logical relations between atomic formulas, by parsing the sentence structures. It then parses the arguments and uses a learning based method to link API references to their corresponding API elements. Finally, it groups the formulas of the same class or method together and transforms them into conjunctive normal form. Our evaluation shows that LEADFOL can accurately extract more FOL directives than a state-of-the-art approach and that the extracted FOL directives are useful in supporting code reviews.},
-  title        = {Learning-based extraction of first-order logic representations of
+author = {Mingwei Liu and
+ Xin Peng and
+ Andrian Marcus and
+ Christoph Treude and
+ Xuefang Bai and
+ Gang Lyu and
+ Jiazhan Xie and
+ Xiaoxin Zhang},
+editor = {Diomidis Spinellis and
+ Georgios Gousios and
+ Marsha Chechik and
+ Massimiliano Di Penta},
+abstract ={Developers often rely on API documentation to learn API directives, i.e., constraints and guidelines related to API usage. Failing to follow API directives may cause defects or improper implementations. Since there are no industry-wide standards on how to document API directives, they take many forms and are often hard to understand by developers or challenging to parse with tools. In this paper, we propose a learning based approach for extracting first-order logic representations of API directives (FOL directives for short). The approach, called LEADFOL, uses a joint learning method to extract atomic formulas by identifying the predicates and arguments involved in directive sentences, and recognizes the logical relations between atomic formulas, by parsing the sentence structures. It then parses the arguments and uses a learning based method to link API references to their corresponding API elements. Finally, it groups the formulas of the same class or method together and transforms them into conjunctive normal form. Our evaluation shows that LEADFOL can accurately extract more FOL directives than a state-of-the-art approach and that the extracted FOL directives are useful in supporting code reviews.},
+title = {Learning-based extraction of first-order logic representations of
                   {API} directives},
-  booktitle    = {{ESEC/FSE} '21: 29th {ACM} Joint European Software Engineering Conference
-                  and Symposium on the Foundations of Software Engineering, Athens,
-                  Greece, August 23-28, 2021},
-  pages        = {491--502},
-  publisher    = {{ACM}},
-  year         = {2021},
-  url          = {https://doi.org/10.1145/3468264.3468618},
-  doi          = {10.1145/3468264.3468618},
-  timestamp    = {Tue, 13 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/sigsoft/Liu0MTBLXZ21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={fse2021-Directive.pdf},
-  bibtex_show={true},
-  altmetric={true},
-  dimensions={true},
-  abbr={ESEC/FSE 2021},
+booktitle = {{ESEC/FSE} '21: 29th {ACM} Joint European Software Engineering Conference
+ and Symposium on the Foundations of Software Engineering, Athens,
+ Greece, August 23-28, 2021},
+pages = {491--502},
+publisher = {{ACM}},
+year = {2021},
+url = {https://doi.org/10.1145/3468264.3468618},
+doi = {10.1145/3468264.3468618},
+timestamp = {Tue, 13 Jun 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/conf/sigsoft/Liu0MTBLXZ21.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={fse2021-Directive.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={ESEC/FSE 2021},
 }
 
 @inproceedings{DBLP:conf/icsm/LiuPMXXWLL20,
-  author       = {Mingwei Liu and
-                  Xin Peng and
-                  Xiujie Meng and
-                  Huanjun Xu and
-                  Shuangshuang Xing and
-                  Xin Wang and
-                  Yang Liu and
-                  Gang Lv},
-  title        = {Source Code based On-demand Class Documentation Generation},
-  booktitle    = {{IEEE} International Conference on Software Maintenance and Evolution,
+author = {Mingwei Liu and
+ Xin Peng and
+ Xiujie Meng and
+ Huanjun Xu and
+ Shuangshuang Xing and
+ Xin Wang and
+ Yang Liu and
+ Gang Lv},
+title = {Source Code based On-demand Class Documentation Generation},
+booktitle = {{IEEE} International Conference on Software Maintenance and Evolution,
                   {ICSME} 2020, Adelaide, Australia, September 28 - October 2, 2020},
-  pages        = {864--865},
-  publisher    = {{IEEE}},
-  year         = {2020},
-  url          = {https://doi.org/10.1109/ICSME46990.2020.00114},
-  doi          = {10.1109/ICSME46990.2020.00114},
-  timestamp    = {Fri, 04 Aug 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/icsm/LiuPMXXWLL20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={icsme2020-document-generate.pdf},
-    bibtex_show={true},
-  altmetric={true},
-dimensions={true},
- abbr={ICSME 2020},
+pages = {864--865},
+publisher = {{IEEE}},
+year = {2020},
+url = {https://doi.org/10.1109/ICSME46990.2020.00114},
+doi = {10.1109/ICSME46990.2020.00114},
+timestamp = {Fri, 04 Aug 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/conf/icsm/LiuPMXXWLL20.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={icsme2020-document-generate.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={ICSME 2020},
 
 }
 
 @inproceedings{DBLP:conf/icsm/LiuYPWZWX20,
-  author       = {Mingwei Liu and
-                  Yanjun Yang and
-                  Xin Peng and
-                  Chong Wang and
-                  Chengyuan Zhao and
-                  Xin Wang and
-                  Shuangshuang Xing},
-  title        = {Learning based and Context Aware Non-Informative Comment Detection},
-  booktitle    = {{IEEE} International Conference on Software Maintenance and Evolution,
+author = {Mingwei Liu and
+ Yanjun Yang and
+ Xin Peng and
+ Chong Wang and
+ Chengyuan Zhao and
+ Xin Wang and
+ Shuangshuang Xing},
+title = {Learning based and Context Aware Non-Informative Comment Detection},
+booktitle = {{IEEE} International Conference on Software Maintenance and Evolution,
                   {ICSME} 2020, Adelaide, Australia, September 28 - October 2, 2020},
-  pages        = {866--867},
-  publisher    = {{IEEE}},
-  year         = {2020},
-  url          = {https://doi.org/10.1109/ICSME46990.2020.00115},
-  doi          = {10.1109/ICSME46990.2020.00115},
-  timestamp    = {Tue, 13 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/icsm/LiuYPWZWX20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={icsme2020-comment.pdf},
-    bibtex_show={true},
-  altmetric={true},
-dimensions={true},
- abbr={ICSME 2020},
+pages = {866--867},
+publisher = {{IEEE}},
+year = {2020},
+url = {https://doi.org/10.1109/ICSME46990.2020.00115},
+doi = {10.1109/ICSME46990.2020.00115},
+timestamp = {Tue, 13 Jun 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/conf/icsm/LiuYPWZWX20.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={icsme2020-comment.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={ICSME 2020},
 
 }
 
 @inproceedings{DBLP:conf/kbse/LiuLPTXZ20,
-  author       = {Yang Liu and
-                  Mingwei Liu and
-                  Xin Peng and
-                  Christoph Treude and
-                  Zhenchang Xing and
-                  Xiaoxin Zhang},
-                  abstract={Developers are concerned with the comparison of similar APIs in terms of their commonalities and (often subtle) differences. Our empirical study of Stack Overflow questions and API documentation confirms that API comparison questions are common and can often be answered by knowledge contained in API reference documentation. Our study also identifies eight types of API statements that are useful for API comparison. Based on these findings, we propose a knowledge graph based approach APIComp that automatically extracts API knowledge from API reference documentation to support the comparison of a pair of API classes or methods from different aspects. Our approach includes an offline phase for constructing an API knowledge graph, and an online phase for generating an API comparison result for a given pair of API elements. Our evaluation shows that the quality of different kinds of extracted knowledge in the API knowledge graph is generally high. Furthermore, the comparison results generated by APIComp are significantly better than those generated by a baseline approach based on heuristic rules and text similarity, and our generated API comparison results are useful for helping developers in API selection tasks.},
-  title        = {Generating Concept based {API} Element Comparison Using a Knowledge
-                  Graph},
-  booktitle    = {35th {IEEE/ACM} International Conference on Automated Software Engineering,
+author = {Yang Liu and
+ Mingwei Liu and
+ Xin Peng and
+ Christoph Treude and
+ Zhenchang Xing and
+ Xiaoxin Zhang},
+abstract ={Developers are concerned with the comparison of similar APIs in terms of their commonalities and (often subtle) differences. Our empirical study of Stack Overflow questions and API documentation confirms that API comparison questions are common and can often be answered by knowledge contained in API reference documentation. Our study also identifies eight types of API statements that are useful for API comparison. Based on these findings, we propose a knowledge graph based approach APIComp that automatically extracts API knowledge from API reference documentation to support the comparison of a pair of API classes or methods from different aspects. Our approach includes an offline phase for constructing an API knowledge graph, and an online phase for generating an API comparison result for a given pair of API elements. Our evaluation shows that the quality of different kinds of extracted knowledge in the API knowledge graph is generally high. Furthermore, the comparison results generated by APIComp are significantly better than those generated by a baseline approach based on heuristic rules and text similarity, and our generated API comparison results are useful for helping developers in API selection tasks.},
+title = {Generating Concept based {API} Element Comparison Using a Knowledge
+ Graph},
+booktitle = {35th {IEEE/ACM} International Conference on Automated Software Engineering,
                   {ASE} 2020, Melbourne, Australia, September 21-25, 2020},
-  pages        = {834--845},
-  publisher    = {{IEEE}},
-  year         = {2020},
-  url          = {https://doi.org/10.1145/3324884.3416628},
-  doi          = {10.1145/3324884.3416628},
-  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/kbse/LiuLPTXZ20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={ase2020-APIComp.pdf},
-    bibtex_show={true},
-  altmetric={true},
-  dimensions={true},
- abbr={ASE 2020},
+pages = {834--845},
+publisher = {{IEEE}},
+year = {2020},
+url = {https://doi.org/10.1145/3324884.3416628},
+doi = {10.1145/3324884.3416628},
+timestamp = {Mon, 26 Jun 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/conf/kbse/LiuLPTXZ20.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={ase2020-APIComp.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={ASE 2020},
 
 }
 
 @inproceedings{DBLP:conf/sigsoft/Xie0LTXZZ20,
-  author       = {Wenkai Xie and
-                  Xin Peng and
-                  Mingwei Liu and
-                  Christoph Treude and
-                  Zhenchang Xing and
-                  Xiaoxin Zhang and
-                  Wenyun Zhao},
-  editor       = {Prem Devanbu and
-                  Myra B. Cohen and
-                  Thomas Zimmermann},
-                 abstract={Due to the lexical gap between functionality descriptions and user queries, documentation-based API retrieval often produces poor results.Verb phrases and their phrase patterns are essential in both describing API functionalities and interpreting user queries. Thus we hypothesize that API retrieval can be facilitated by explicitly recognizing and matching between the fine-grained structures of functionality descriptions and user queries. To verify this hypothesis, we conducted a large-scale empirical study on the functionality descriptions of 14,733 JDK and Android API methods. We identified 356 different functionality verbs from the descriptions, which were grouped into 87 functionality categories, and we extracted 523 phrase patterns from the verb phrases of the descriptions. Building on these findings, we propose an API method recommendation approach based on explicit matching of functionality verb phrases in functionality descriptions and user queries, called PreMA. Our evaluation shows that PreMA can accurately recognize the functionality categories (92.8%) and phrase patterns (90.4%) of functionality description sentences; and when used for API retrieval tasks, PreMA can help participants complete their tasks more accurately and with fewer retries compared to a baseline approach.},
-  title        = {{API} method recommendation via explicit matching of functionality
+author = {Wenkai Xie and
+ Xin Peng and
+ Mingwei Liu and
+ Christoph Treude and
+ Zhenchang Xing and
+ Xiaoxin Zhang and
+ Wenyun Zhao},
+editor = {Prem Devanbu and
+ Myra B. Cohen and
+ Thomas Zimmermann},
+abstract ={Due to the lexical gap between functionality descriptions and user queries, documentation-based API retrieval often produces poor results.Verb phrases and their phrase patterns are essential in both describing API functionalities and interpreting user queries. Thus we hypothesize that API retrieval can be facilitated by explicitly recognizing and matching between the fine-grained structures of functionality descriptions and user queries. To verify this hypothesis, we conducted a large-scale empirical study on the functionality descriptions of 14,733 JDK and Android API methods. We identified 356 different functionality verbs from the descriptions, which were grouped into 87 functionality categories, and we extracted 523 phrase patterns from the verb phrases of the descriptions. Building on these findings, we propose an API method recommendation approach based on explicit matching of functionality verb phrases in functionality descriptions and user queries, called PreMA. Our evaluation shows that PreMA can accurately recognize the functionality categories (92.8%) and phrase patterns (90.4%) of functionality description sentences; and when used for API retrieval tasks, PreMA can help participants complete their tasks more accurately and with fewer retries compared to a baseline approach.},
+title = {{API} method recommendation via explicit matching of functionality
                   verb phrases},
-  booktitle    = {{ESEC/FSE} '20: 28th {ACM} Joint European Software Engineering Conference
-                  and Symposium on the Foundations of Software Engineering, Virtual
-                  Event, USA, November 8-13, 2020},
-  pages        = {1015--1026},
-  publisher    = {{ACM}},
-  year         = {2020},
-  url          = {https://doi.org/10.1145/3368089.3409731},
-  doi          = {10.1145/3368089.3409731},
-  timestamp    = {Tue, 13 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/sigsoft/Xie0LTXZZ20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={fse2020-FuncVerb.pdf},
-  bibtex_show={true},
-  altmetric={true},
-  dimensions={true},
-  abbr={ESEC/FSE 2020},
+booktitle = {{ESEC/FSE} '20: 28th {ACM} Joint European Software Engineering Conference
+ and Symposium on the Foundations of Software Engineering, Virtual
+ Event, USA, November 8-13, 2020},
+pages = {1015--1026},
+publisher = {{ACM}},
+year = {2020},
+url = {https://doi.org/10.1145/3368089.3409731},
+doi = {10.1145/3368089.3409731},
+timestamp = {Tue, 13 Jun 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/conf/sigsoft/Xie0LTXZZ20.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={fse2020-FuncVerb.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={ESEC/FSE 2020},
 }
 
 @inproceedings{DBLP:conf/sigsoft/Wang0LXBXW19,
-  author       = {Chong Wang and
-                  Xin Peng and
-                  Mingwei Liu and
-                  Zhenchang Xing and
-                  Xuefang Bai and
-                  Bing Xie and
-                  Tuo Wang},
-  editor       = {Marlon Dumas and
-                  Dietmar Pfahl and
-                  Sven Apel and
-                  Alessandra Russo},
-                  abstract={A domain glossary that organizes domain-specific concepts and their aliases and relations is essential for knowledge acquisition and software development. Existing approaches use linguistic heuristics or term-frequency-based statistics to identify domain specific terms from software documentation, and thus the accuracy is often low. In this paper, we propose a learning-based approach for automatic construction of domain glossary from source code and software documentation. The approach uses a set of high-quality seed terms identified from code identifiers and natural language concept definitions to train a domain-specific prediction model to recognize glossary terms based on the lexical and semantic context of the sentences mentioning domain-specific concepts. It then merges the aliases of the same concepts to their canonical names, selects a set of explanation sentences for each concept, and identifies "is a", "has a", and "related to" relations between the concepts. We apply our approach to deep learning domain and Hadoop domain and harvest 5,382 and 2,069 concepts together with 16,962 and 6,815 relations respectively. Our evaluation validates the accuracy of the extracted domain glossary and its usefulness for the fusion and acquisition of knowledge from different documents of different projects.},
-  title        = {A learning-based approach for automatic construction of domain glossary
-                  from source code and documentation},
-  booktitle    = {Proceedings of the {ACM} Joint Meeting on European Software Engineering
-                  Conference and Symposium on the Foundations of Software Engineering,
+author = {Chong Wang and
+ Xin Peng and
+ Mingwei Liu and
+ Zhenchang Xing and
+ Xuefang Bai and
+ Bing Xie and
+ Tuo Wang},
+editor = {Marlon Dumas and
+ Dietmar Pfahl and
+ Sven Apel and
+ Alessandra Russo},
+abstract ={A domain glossary that organizes domain-specific concepts and their aliases and relations is essential for knowledge acquisition and software development. Existing approaches use linguistic heuristics or term-frequency-based statistics to identify domain specific terms from software documentation, and thus the accuracy is often low. In this paper, we propose a learning-based approach for automatic construction of domain glossary from source code and software documentation. The approach uses a set of high-quality seed terms identified from code identifiers and natural language concept definitions to train a domain-specific prediction model to recognize glossary terms based on the lexical and semantic context of the sentences mentioning domain-specific concepts. It then merges the aliases of the same concepts to their canonical names, selects a set of explanation sentences for each concept, and identifies "is a", "has a", and "related to" relations between the concepts. We apply our approach to deep learning domain and Hadoop domain and harvest 5,382 and 2,069 concepts together with 16,962 and 6,815 relations respectively. Our evaluation validates the accuracy of the extracted domain glossary and its usefulness for the fusion and acquisition of knowledge from different documents of different projects.},
+title = {A learning-based approach for automatic construction of domain glossary
+ from source code and documentation},
+booktitle = {Proceedings of the {ACM} Joint Meeting on European Software Engineering
+ Conference and Symposium on the Foundations of Software Engineering,
                   {ESEC/SIGSOFT} {FSE} 2019, Tallinn, Estonia, August 26-30, 2019},
-  pages        = {97--108},
-  publisher    = {{ACM}},
-  year         = {2019},
-  url          = {https://doi.org/10.1145/3338906.3338963},
-  doi          = {10.1145/3338906.3338963},
-  timestamp    = {Sat, 30 Sep 2023 09:56:36 +0200},
-  biburl       = {https://dblp.org/rec/conf/sigsoft/Wang0LXBXW19.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={fse19-wang-glossary.pdf},
-    bibtex_show={true},
-  altmetric={true},
-dimensions={true},
- abbr={ESEC/FSE 2019},
+pages = {97--108},
+publisher = {{ACM}},
+year = {2019},
+url = {https://doi.org/10.1145/3338906.3338963},
+doi = {10.1145/3338906.3338963},
+timestamp = {Sat, 30 Sep 2023 09:56:36 +0200},
+biburl = {https://dblp.org/rec/conf/sigsoft/Wang0LXBXW19.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={fse19-wang-glossary.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={ESEC/FSE 2019},
 
 }
 
 @inproceedings{DBLP:conf/sigsoft/Liu0MXXXL19,
-  author       = {Mingwei Liu and
-                  Xin Peng and
-                  Andrian Marcus and
-                  Zhenchang Xing and
-                  Wenkai Xie and
-                  Shuangshuang Xing and
-                  Yang Liu},
-  editor       = {Marlon Dumas and
-                  Dietmar Pfahl and
-                  Sven Apel and
-                  Alessandra Russo},
-                  abstract={Source code summaries are concise representations, in form of text and/or code, of complex code elements and are meant to help developers gain a quick understanding that in turns help them perform specific tasks. Generation of summaries that are task-specific is still a challenge in the automatic code summarization field. We propose an approach for generating on-demand, extrinsic hybrid summaries for API classes, relevant to a programming task, formulated as a natural language query. The summaries include the most relevant sentences extracted from the API reference documentation and the most relevant methods. External evaluators assessed the summaries generated for classes retrieved from JDK and Android libraries for several programming tasks. The majority found that the summaries are complete, concise, and readable. A comparison with summaries produce by three baseline approaches revealed that the information present only in our summaries is more relevant than the one present only in the baselines summaries. Finally, an extrinsic evaluation study showed that the summaries help the users evaluating the correctness of API retrieval results, faster and more accurately.},
-  title        = {Generating query-specific class {API} summaries},
-  booktitle    = {Proceedings of the {ACM} Joint Meeting on European Software Engineering
-                  Conference and Symposium on the Foundations of Software Engineering,
+author = {Mingwei Liu and
+ Xin Peng and
+ Andrian Marcus and
+ Zhenchang Xing and
+ Wenkai Xie and
+ Shuangshuang Xing and
+ Yang Liu},
+editor = {Marlon Dumas and
+ Dietmar Pfahl and
+ Sven Apel and
+ Alessandra Russo},
+abstract ={Source code summaries are concise representations, in form of text and/or code, of complex code elements and are meant to help developers gain a quick understanding that in turns help them perform specific tasks. Generation of summaries that are task-specific is still a challenge in the automatic code summarization field. We propose an approach for generating on-demand, extrinsic hybrid summaries for API classes, relevant to a programming task, formulated as a natural language query. The summaries include the most relevant sentences extracted from the API reference documentation and the most relevant methods. External evaluators assessed the summaries generated for classes retrieved from JDK and Android libraries for several programming tasks. The majority found that the summaries are complete, concise, and readable. A comparison with summaries produce by three baseline approaches revealed that the information present only in our summaries is more relevant than the one present only in the baselines summaries. Finally, an extrinsic evaluation study showed that the summaries help the users evaluating the correctness of API retrieval results, faster and more accurately.},
+title = {Generating query-specific class {API} summaries},
+booktitle = {Proceedings of the {ACM} Joint Meeting on European Software Engineering
+ Conference and Symposium on the Foundations of Software Engineering,
                   {ESEC/SIGSOFT} {FSE} 2019, Tallinn, Estonia, August 26-30, 2019},
-  pages        = {120--130},
-  publisher    = {{ACM}},
-  year         = {2019},
-  url          = {https://doi.org/10.1145/3338906.3338971},
-  doi          = {10.1145/3338906.3338971},
-  timestamp    = {Fri, 04 Aug 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/sigsoft/Liu0MXXXL19.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={fse19-liu-APISummary.pdf},
-    bibtex_show={true},
-  altmetric={true},
-dimensions={true},
- abbr={ESEC/FSE 2019},
+pages = {120--130},
+publisher = {{ACM}},
+year = {2019},
+url = {https://doi.org/10.1145/3338906.3338971},
+doi = {10.1145/3338906.3338971},
+timestamp = {Fri, 04 Aug 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/conf/sigsoft/Liu0MXXXL19.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={fse19-liu-APISummary.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={ESEC/FSE 2019},
 
 }
 
 @inproceedings{DBLP:conf/icsm/PengZLZLWX18,
-  author       = {Xin Peng and
-                  Yifan Zhao and
-                  Mingwei Liu and
-                  Fengyi Zhang and
-                  Yang Liu and
-                  Xin Wang and
-                  Zhenchang Xing},
-  title        = {Automatic Generation of {API} Documentations for Open-Source Projects},
-  booktitle    = {{IEEE} Third International Workshop on Dynamic Software Documentation,
+author = {Xin Peng and
+ Yifan Zhao and
+ Mingwei Liu and
+ Fengyi Zhang and
+ Yang Liu and
+ Xin Wang and
+ Zhenchang Xing},
+title = {Automatic Generation of {API} Documentations for Open-Source Projects},
+booktitle = {{IEEE} Third International Workshop on Dynamic Software Documentation,
                   DySDoc@ICSME 2018, Madrid, Spain, September 25, 2018},
-  pages        = {7--8},
-  publisher    = {{IEEE}},
-  year         = {2018},
-  url          = {https://doi.org/10.1109/DySDoc3.2018.00010},
-  doi          = {10.1109/DYSDOC3.2018.00010},
-  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/icsm/PengZLZLWX18.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={ICSME2018DocGen.pdf},
-    bibtex_show={true},
-  altmetric={true},
-dimensions={true},
- abbr={ICSME 2018},
+pages = {7--8},
+publisher = {{IEEE}},
+year = {2018},
+url = {https://doi.org/10.1109/DySDoc3.2018.00010},
+doi = {10.1109/DYSDOC3.2018.00010},
+timestamp = {Mon, 26 Jun 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/conf/icsm/PengZLZLWX18.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={ICSME2018DocGen.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={ICSME 2018},
 
 }
 
 @inproceedings{DBLP:conf/icsm/LiLSXPLZ18,
-  author       = {Hongwei Li and
-                  Sirui Li and
-                  Jiamou Sun and
-                  Zhenchang Xing and
-                  Xin Peng and
-                  Mingwei Liu and
-                  Xuejiao Zhao},
-                  abstract={API documentation provides important knowledge about the functionality and usage of APIs. In this paper, we focus on API caveats that developers should be aware of in order to avoid unintended use of an API. Our formative study of Stack Overflow questions suggests that API caveats are often scattered in multiple API documents, and are buried in lengthy textual descriptions. These characteristics make the API caveats less discoverable. When developers fail to notice API caveats, it is very likely to cause some unexpected programming errors. In this paper, we propose natural language processing(NLP) techniques to extract ten subcategories of API caveat sentences from API documentation and link these sentences to API entities in an API caveats knowledge graph. The API caveats knowledge graph can support information retrieval based or entity-centric search of API caveats. As a proof-of-concept, we construct an API caveats knowledge graph for Android APIs from the API documentation on the Android Developers website. We study the abundance of different subcategories of API caveats and use a sampling method to manually evaluate the quality of the API caveats knowledge graph. We also conduct a user study to validate whether and how the API caveats knowledge graph may improve the accessibility of API caveats in API documentation.},
-  title        = {Improving {API} Caveats Accessibility by Mining {API} Caveats Knowledge
-                  Graph},
-  booktitle    = {2018 {IEEE} International Conference on Software Maintenance and Evolution,
+author = {Hongwei Li and
+ Sirui Li and
+ Jiamou Sun and
+ Zhenchang Xing and
+ Xin Peng and
+ Mingwei Liu and
+ Xuejiao Zhao},
+abstract ={API documentation provides important knowledge about the functionality and usage of APIs. In this paper, we focus on API caveats that developers should be aware of in order to avoid unintended use of an API. Our formative study of Stack Overflow questions suggests that API caveats are often scattered in multiple API documents, and are buried in lengthy textual descriptions. These characteristics make the API caveats less discoverable. When developers fail to notice API caveats, it is very likely to cause some unexpected programming errors. In this paper, we propose natural language processing(NLP) techniques to extract ten subcategories of API caveat sentences from API documentation and link these sentences to API entities in an API caveats knowledge graph. The API caveats knowledge graph can support information retrieval based or entity-centric search of API caveats. As a proof-of-concept, we construct an API caveats knowledge graph for Android APIs from the API documentation on the Android Developers website. We study the abundance of different subcategories of API caveats and use a sampling method to manually evaluate the quality of the API caveats knowledge graph. We also conduct a user study to validate whether and how the API caveats knowledge graph may improve the accessibility of API caveats in API documentation.},
+title = {Improving {API} Caveats Accessibility by Mining {API} Caveats Knowledge
+ Graph},
+booktitle = {2018 {IEEE} International Conference on Software Maintenance and Evolution,
                   {ICSME} 2018, Madrid, Spain, September 23-29, 2018},
-  pages        = {183--193},
-  publisher    = {{IEEE} Computer Society},
-  year         = {2018},
-  url          = {https://doi.org/10.1109/ICSME.2018.00028},
-  doi          = {10.1109/ICSME.2018.00028},
-  timestamp    = {Tue, 13 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/icsm/LiLSXPLZ18.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={icsme2018_apicaveatskg.pdf},
-  bibtex_show={true},
-  award={IEEE TCSE Distinguished Paper Awards},
-  altmetric={true},
-  dimensions={true},
-  abbr={ICSME 2018},
+pages = {183--193},
+publisher = {{IEEE} Computer Society},
+year = {2018},
+url = {https://doi.org/10.1109/ICSME.2018.00028},
+doi = {10.1109/ICSME.2018.00028},
+timestamp = {Tue, 13 Jun 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/conf/icsm/LiLSXPLZ18.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={icsme2018_apicaveatskg.pdf},
+bibtex_show ={true},
+award ={IEEE TCSE Distinguished Paper Awards},
+altmetric ={true},
+dimensions ={true},
+abbr ={ICSME 2018},
 }
 
 @inproceedings{DBLP:conf/internetware/Liu0JMYZ18,
-  author       = {Mingwei Liu and
-                  Xin Peng and
-                  Qingtao Jiang and
-                  Andrian Marcus and
-                  Junwen Yang and
-                  Wenyun Zhao},
-  title        = {Searching StackOverflow Questions with Multi-Faceted Categorization},
-  booktitle    = {Proceedings of the Tenth Asia-Pacific Symposium on Internetware, Internetware
-                  2018, Beijing, China, September 16-16, 2018},
-  pages        = {10:1--10:10},
-  publisher    = {{ACM}},
-  year         = {2018},
-  url          = {https://doi.org/10.1145/3275219.3275227},
-  doi          = {10.1145/3275219.3275227},
-  timestamp    = {Tue, 13 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/internetware/Liu0JMYZ18.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={Internetware18SO.pdf},
-    bibtex_show={true},
-      altmetric={true},
-dimensions={true},
- abbr={Internetware 2018},
+author = {Mingwei Liu and
+ Xin Peng and
+ Qingtao Jiang and
+ Andrian Marcus and
+ Junwen Yang and
+ Wenyun Zhao},
+title = {Searching StackOverflow Questions with Multi-Faceted Categorization},
+booktitle = {Proceedings of the Tenth Asia-Pacific Symposium on Internetware, Internetware
+ 2018, Beijing, China, September 16-16, 2018},
+pages = {10:1--10:10},
+publisher = {{ACM}},
+year = {2018},
+url = {https://doi.org/10.1145/3275219.3275227},
+doi = {10.1145/3275219.3275227},
+timestamp = {Tue, 13 Jun 2023 01:00:00 +0200},
+biburl = {https://dblp.org/rec/conf/internetware/Liu0JMYZ18.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+pdf ={Internetware18SO.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={Internetware 2018},
 
 
 }
 
 @article{jos2023survey,
-  title={Survey on Representation Learning Methods of Knowledge Graph for Link Prediction},
-  author={Xueying Du and Mingwei Liu and Liwei Shen and Xin Peng},
-  journal={Journal of Software},
-  volume={35},
-  number={1},
-  pages={87--117},
-  year={2023},
-  pdf={JournalOfSoftware2023-KGRepSurvey.pdf},
-    bibtex_show={true},
-      altmetric={true},
-dimensions={true},
- abbr={JoS},
+title ={Survey on Representation Learning Methods of Knowledge Graph for Link Prediction},
+author ={Xueying Du and Mingwei Liu and Liwei Shen and Xin Peng},
+journal ={Journal of Software},
+volume ={35},
+number ={1},
+pages ={87--117},
+year ={2023},
+pdf ={JournalOfSoftware2023-KGRepSurvey.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={JoS},
 
 }
 
 @article{jos2021automatic,
-  title={Automatic Code Semantic Tag Generation Approach Based on Software Knowledge Graph},
-  author={Shuangshuang Xing and Mingwei Liu and Xin Peng},
-  journal={Journal of Software},
-  volume={33},
-  number={11},
-  pages={4027--4045},
-  year={2021},
-  pdf={JournalOfSoftware2021-KGCodeTagger.pdf},
-    bibtex_show={true},
-  altmetric={true},
-dimensions={true},
- abbr={JoS},
+title ={Automatic Code Semantic Tag Generation Approach Based on Software Knowledge Graph},
+author ={Shuangshuang Xing and Mingwei Liu and Xin Peng},
+journal ={Journal of Software},
+volume ={33},
+number ={11},
+pages ={4027--4045},
+year ={2021},
+pdf ={JournalOfSoftware2021-KGCodeTagger.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={JoS},
 }
 
 @inproceedings{FSE24CHATTESTER,
-    author       = {
-    Zhiqiang Yuan and
-    Mingwei Liu and
-     Shiji Ding and
-     Kaixin Wang and
-     Yixuan Chen and
-     Xin Peng and
-     Yiling Lou
+author = {
+Zhiqiang Yuan and
+ Mingwei Liu and
+ Shiji Ding and
+ Kaixin Wang and
+ Yixuan Chen and
+ Xin Peng and
+ Yiling Lou
 },
-  abstract={Unit testing plays an essential role in detecting bugs in functionally-discrete program units (e.g., methods). Manually writing high-quality unit tests is time-consuming and laborious. Although the traditional techniques
+abstract ={Unit testing plays an essential role in detecting bugs in functionally-discrete program units (e.g., methods). Manually writing high-quality unit tests is time-consuming and laborious. Although the traditional techniques
 are able to generate tests with reasonable coverage, they are shown to exhibit low readability and still cannot be directly adopted by developers in practice. Recent work has shown the large potential of large language
 models (LLMs) in unit test generation. By being pre-trained on a massive developer-written code corpus, the models are capable of generating more human-like and meaningful test code.
 In this work, we perform the first empirical study to evaluate the capability of ChatGPT (i.e., one of the most representative LLMs with outstanding performance in code generation and comprehension) in unit test
@@ -722,42 +722,42 @@ if the correctness of its generated tests could be further improved.
 Inspired by our findings above, we further propose ChatTester, a novel ChatGPT-based unit test generation approach, which leverages ChatGPT itself to improve the quality of its generated tests. ChatTester incorporates an initial test generator and an iterative test refiner. Our evaluation demonstrates the effectiveness of ChatTester by generating 34.3% more compilable tests and 18.7% more tests with correct assertions
 than the default ChatGPT. In addition to ChatGPT, we further investigate the generalization capabilities of ChatTester by applying it to two recent open-source LLMs (i.e., CodeLlama-Instruct and CodeFuse) and our
 results show that ChatTester can also improve the quality of tests generated by these LLMs.},
-    title        = {Evaluating and Improving ChatGPT for Unit Test Generation},
-  booktitle    = {Proceedings of the 32st {ACM} Joint European Software Engineering
-                  Conference and Symposium on the Foundations of Software Engineering,
+title = {Evaluating and Improving ChatGPT for Unit Test Generation},
+booktitle = {Proceedings of the 32st {ACM} Joint European Software Engineering
+ Conference and Symposium on the Foundations of Software Engineering,
                   {ESEC/FSE} 2024, to appear, July 2024, Brazil, Brazil},
-  pages        = {0--0},
-  publisher    = {{ACM}},
-  year         = {2024},
-  selected     = {true},
-  pdf={FSE24_chatTester_cameraReady.pdf},
-  bibtex_show={true},
-  altmetric={true},
-  dimensions={true},
-  abbr={ESEC/FSE 2024},
-  arxiv={2305.04207},
+pages = {0--0},
+publisher = {{ACM}},
+year = {2024},
+selected = {true},
+pdf ={FSE24_chatTester_cameraReady.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={ESEC/FSE 2024},
+arxiv ={2305.04207},
 }
 
 @article{jos2024coderag,
-  title={Revisiting The Retrieval-Augmentation Strategy In Code Completion},
-  author={Baihan Zou and Ying Wang and Xin Peng and Yiling Lou and Lihua Liu and Dong Zhangxin and Fan Lin and Mingwei Liu},
-  journal={Journal of Software},
-  volume={0},
-  number={0},
-  pages={0--0},
-  year={2024},
-  pdf={JournalOfSoftware2024-CodeRAG.pdf},
-  bibtex_show={true},
-  altmetric={true},
-  dimensions={true},
-  abbr={JoS},
+title ={Revisiting The Retrieval-Augmentation Strategy In Code Completion},
+author ={Baihan Zou and Ying Wang and Xin Peng and Yiling Lou and Lihua Liu and Dong Zhangxin and Fan Lin and Mingwei Liu},
+journal ={Journal of Software},
+volume ={0},
+number ={0},
+pages ={0--0},
+year ={2024},
+pdf ={JournalOfSoftware2024-CodeRAG.pdf},
+bibtex_show ={true},
+altmetric ={true},
+dimensions ={true},
+abbr ={JoS},
 }
 
 @article{VulRAG,
-  author       = {Xueying Du and
-                  Geng Zheng and
-                  Kaixin Wang and
-                    Jiayi Feng and
+author = {Xueying Du and
+ Geng Zheng and
+ Kaixin Wang and
+ Jiayi Feng and
 Wentai Deng and
 Mingwei Liu and
 Bihuan Chen and
@@ -765,357 +765,355 @@ Xin Peng and
 Tao Ma and
 Yiling Lou
 },
-  title        = {Vul-RAG: Enhancing LLM-based Vulnerability Detection via Knowledge-level RAG},
-  journal      = {CoRR},
-  volume       = {abs/2406.11147},
-  year         = {2024},
-  eprinttype    = {arXiv},
-  eprint       = {2406.11147},
-  pdf={arxiv2024VulRAG.pdf},
-  bibtex_show={true},
-  arxiv={2406.11147},
-  altmetric={true},
-  dimensions={true},
- abbr={arXiv},
- abstract={Vulnerability detection is essential for software quality assurance. In recent years, deep learning models (especially large language models) have shown promise in vulnerability detection. In this work, we propose a novel LLM-based vulnerability detection technique Vul-RAG, which leverages knowledge-level retrieval-augmented generation (RAG) framework to detect vulnerability for the given code in three phases. First, Vul-RAG constructs a vulnerability knowledge base by extracting multi-dimension knowledge via LLMs from existing CVE instances; second, for a given code snippet, Vul-RAG} retrieves the relevant vulnerability knowledge from the constructed knowledge base based on functional semantics; third, Vul-RAG leverages LLMs to check the vulnerability of the given code snippet by reasoning the presence of vulnerability causes and fixing solutions of the retrieved vulnerability knowledge. Our evaluation of Vul-RAG on our constructed benchmark PairVul shows that Vul-RAG substantially outperforms all baselines by 12.96%/110% relative improvement in accuracy/pairwise-accuracy. In addition, our user study shows that the vulnerability knowledge generated by Vul-RAG can serve as high-quality explanations which can improve the manual detection accuracy from 0.60 to 0.77.},
- selected = {true},
-  google_scholar_id = {9Nmd_mFXekcC}
+title = {Vul-RAG: Enhancing LLM-based Vulnerability Detection via Knowledge-level RAG},
+journal = {CoRR},
+volume = {abs/2406.11147},
+year = {2024},
+eprinttype = {arXiv},
+eprint = {2406.11147},
+pdf ={arxiv2024VulRAG.pdf},
+bibtex_show ={true},
+arxiv ={2406.11147},
+altmetric ={true},
+dimensions ={true},
+abbr ={arXiv},
+abstract ={Vulnerability detection is essential for software quality assurance. In recent years, deep learning models (especially large language models) have shown promise in vulnerability detection. In this work, we propose a novel LLM-based vulnerability detection technique Vul-RAG, which leverages knowledge-level retrieval-augmented generation (RAG) framework to detect vulnerability for the given code in three phases. First, Vul-RAG constructs a vulnerability knowledge base by extracting multi-dimension knowledge via LLMs from existing CVE instances; second, for a given code snippet, Vul-RAG} retrieves the relevant vulnerability knowledge from the constructed knowledge base based on functional semantics; third, Vul-RAG leverages LLMs to check the vulnerability of the given code snippet by reasoning the presence of vulnerability causes and fixing solutions of the retrieved vulnerability knowledge. Our evaluation of Vul-RAG on our constructed benchmark PairVul shows that Vul-RAG substantially outperforms all baselines by 12.96%/110% relative improvement in accuracy/pairwise-accuracy. In addition, our user study shows that the vulnerability knowledge generated by Vul-RAG can serve as high-quality explanations which can improve the manual detection accuracy from 0.60 to 0.77.},
+selected = {true},
+google_scholar_id = {9Nmd_mFXekcC}
 
 
 
 }
 
 @article{STALL,
-  author       = {Junwei Liu and Yixuan Chen and Mingwei Liu and Xin Peng and Yiling Lou
+author = {Junwei Liu and Yixuan Chen and Mingwei Liu and Xin Peng and Yiling Lou
  },
-  title        = {STALL+: Boosting LLM-based Repository-level Code Completion with Static Analysis},
-  journal      = {CoRR},
-  volume       = {abs/2406.10018},
-  year         = {2024},
-  eprinttype    = {arXiv},
-  eprint       = {2406.10018},
-  pdf={arxiv2024STALL.pdf},
-  bibtex_show={true},
-  arxiv={2406.10018},
-  altmetric={true},
-  dimensions={true},
- abbr={arXiv},
-  abstract={Repository-level code completion is challenging as it involves complicated contexts from multiple files in the repository. To date, researchers have proposed two technical categories to enhance LLM-based repository-level code completion, i.e., retrieval-augmented generation (RAG) and static analysis integration. This work performs the first study on the static analysis integration in LLM-based repository-level code completion by investigating both the effectiveness and efficiency of static analysis integration strategies across different phases of code completion. We first implement a framework STALL+, which supports an extendable and customizable integration of multiple static analysis strategies into the complete pipeline of LLM-based repository-level code completion; and based on STALL+, we perform extensive experiments by including different code LLMs on the latest repository-level code completion benchmark CrossCodeEval. Our findings show that integrating file-level dependencies in prompting phase performs the best while the integration in post-processing phase performs the worse. Additionally, we observe different improvements from static analysis between dynamic languages and static languages, i.e., the best combination is prompting-phase with decoding-phase integration for Java while the best combination is prompting-phase with post-processing-phase integration for Python given the limitations of statically analyzing dynamic languages. Additionally, we find the complementarity between RAG and static analysis integration as well as their cost-effectiveness after combination.
+title = {STALL+: Boosting LLM-based Repository-level Code Completion with Static Analysis},
+journal = {CoRR},
+volume = {abs/2406.10018},
+year = {2024},
+eprinttype = {arXiv},
+eprint = {2406.10018},
+pdf ={arxiv2024STALL.pdf},
+bibtex_show ={true},
+arxiv ={2406.10018},
+altmetric ={true},
+dimensions ={true},
+abbr ={arXiv},
+abstract ={Repository-level code completion is challenging as it involves complicated contexts from multiple files in the repository. To date, researchers have proposed two technical categories to enhance LLM-based repository-level code completion, i.e., retrieval-augmented generation (RAG) and static analysis integration. This work performs the first study on the static analysis integration in LLM-based repository-level code completion by investigating both the effectiveness and efficiency of static analysis integration strategies across different phases of code completion. We first implement a framework STALL+, which supports an extendable and customizable integration of multiple static analysis strategies into the complete pipeline of LLM-based repository-level code completion; and based on STALL+, we perform extensive experiments by including different code LLMs on the latest repository-level code completion benchmark CrossCodeEval. Our findings show that integrating file-level dependencies in prompting phase performs the best while the integration in post-processing phase performs the worse. Additionally, we observe different improvements from static analysis between dynamic languages and static languages, i.e., the best combination is prompting-phase with decoding-phase integration for Java while the best combination is prompting-phase with post-processing-phase integration for Python given the limitations of statically analyzing dynamic languages. Additionally, we find the complementarity between RAG and static analysis integration as well as their cost-effectiveness after combination.
 }
 }
 
 @article{wang2024beyond,
-  title={Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models},
-  author={Wang, Yanlin and Jiang, Tianyue and Liu, Mingwei and Chen, Jiachi and Zheng, Zibin},
-  journal={arXiv preprint arXiv:2407.00456},
-  year={2024},
-  pdf={arxiv2024codestyle.pdf},
-  bibtex_show={true},
-  arxiv={2407.00456},
-  altmetric={true},
-  dimensions={true},
-  abbr={arXiv},
-  abstract={
-  Large language models (LLMs) have brought a paradigm shift to the field of code generation, offering the potential to enhance the software development process. However, previous research mainly focuses on the accuracy of code generation, while coding style differences between LLMs and human developers remain under-explored. In this paper, we empirically analyze the differences in coding style between the code generated by mainstream Code LLMs and the code written by human developers, and summarize coding style inconsistency taxonomy. Specifically, we first summarize the types of coding style inconsistencies by manually analyzing a large number of generation results. We then compare the code generated by Code LLMs with the code written by human programmers in terms of readability, conciseness, and robustness. The results reveal that LLMs and developers have different coding styles. Additionally, we study the possible causes of these inconsistencies and provide some solutions to alleviate the problem.  }
+title ={Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models},
+author ={Wang, Yanlin and Jiang, Tianyue and Liu, Mingwei and Chen, Jiachi and Zheng, Zibin},
+journal ={arXiv preprint arXiv:2407.00456},
+year ={2024},
+pdf ={arxiv2024codestyle.pdf},
+bibtex_show ={true},
+arxiv ={2407.00456},
+altmetric ={true},
+dimensions ={true},
+abbr ={arXiv},
+abstract ={
+Large language models (LLMs) have brought a paradigm shift to the field of code generation, offering the potential to enhance the software development process. However, previous research mainly focuses on the accuracy of code generation, while coding style differences between LLMs and human developers remain under-explored. In this paper, we empirically analyze the differences in coding style between the code generated by mainstream Code LLMs and the code written by human developers, and summarize coding style inconsistency taxonomy. Specifically, we first summarize the types of coding style inconsistencies by manually analyzing a large number of generation results. We then compare the code generated by Code LLMs with the code written by human programmers in terms of readability, conciseness, and robustness. The results reveal that LLMs and developers have different coding styles. Additionally, we study the possible causes of these inconsistencies and provide some solutions to alleviate the problem.  }
 
 }
 @article{duexploring,
-  title={Exploring Large Language Models in Resolving Environment-Related Crash Bugs: Localizing and Repairing},
-  author={Du, Xueying and Liu, Mingwei and Wang, Hanlin and Li, Juntao and Peng, Xin and Lou, Yiling},
-  journal={ACM Transactions on Software Engineering and Methodology},
-  publisher={ACM New York, NY},
-  altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-            abbr={TOSEM}
+title ={Exploring Large Language Models in Resolving Environment-Related Crash Bugs: Localizing and Repairing},
+author ={Du, Xueying and Liu, Mingwei and Wang, Hanlin and Li, Juntao and Peng, Xin and Lou, Yiling},
+journal ={ACM Transactions on Software Engineering and Methodology},
+publisher ={ACM New York, NY},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={TOSEM}
 
 }
 
 @article{wang2026realsec,
-  title={RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories},
-  author={Wang, Yanlin and Zhang, Ziyao and Wang, Chong and Xu, Xinyi and Liu, Mingwei and Wang, Yong and Chen, Jiachi and Zheng, Zibin},
-  journal={arXiv preprint arXiv:2601.22706},
-  year={2026},
-  altmetric={true},
-  dimensions={true},
-  bibtex_show={true}
+title ={RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories},
+author ={Wang, Yanlin and Zhang, Ziyao and Wang, Chong and Xu, Xinyi and Liu, Mingwei and Wang, Yong and Chen, Jiachi and Zheng, Zibin},
+journal ={arXiv preprint arXiv:2601.22706},
+year ={2026},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true}
 }
 @inproceedings{wang2025draincode,
-  title={DrainCode: Stealthy Energy Consumption Attacks on Retrieval-Augmented Code Generation via Context Poisoning},
-  author={Wang, Yanlin and Wu, Jiadong and Jiang, Tianyue and Liu, Mingwei and Chen, Jiachi and Wang, Chong and Shi, Ensheng and Liu, Xilin and Ma, Yuchi and Zheng, Zibin},
-  booktitle={2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
-  pages={778--790},
-  year={2025},
-  organization={IEEE},
-  altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-          abbr={ASE 2025}
+title ={DrainCode: Stealthy Energy Consumption Attacks on Retrieval-Augmented Code Generation via Context Poisoning},
+author ={Wang, Yanlin and Wu, Jiadong and Jiang, Tianyue and Liu, Mingwei and Chen, Jiachi and Wang, Chong and Shi, Ensheng and Liu, Xilin and Ma, Yuchi and Zheng, Zibin},
+booktitle ={2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+pages ={778--790},
+year ={2025},
+organization ={IEEE},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={ASE 2025}
 
 }
 @article{chen2026decoder,
-  title={Are decoder-only large language models the silver bullet for code search?},
-  author={Chen, Yuxuan and Liu, Mingwei and Ou, Guangsheng and Li, Anji and Dai, Dekun and Wang, Yanlin and Zheng, Zibin},
-  journal={IEEE Transactions on Software Engineering},
-  year={2026},
-  publisher={IEEE},
-  altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-        abbr={TSE}
+title ={Are decoder-only large language models the silver bullet for code search?},
+author ={Chen, Yuxuan and Liu, Mingwei and Ou, Guangsheng and Li, Anji and Dai, Dekun and Wang, Yanlin and Zheng, Zibin},
+journal ={IEEE Transactions on Software Engineering},
+year ={2026},
+publisher ={IEEE},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={TSE}
 
 }
 
 @article{li2026advances,
-  title={Advances and Frontiers of LLM-based Issue Resolution in Software Engineering: A Comprehensive Survey},
-  author={Li, Caihua and Guo, Lianghong and Wang, Yanlin and Guo, Daya and Tao, Wei and Shan, Zhenyu and Liu, Mingwei and Chen, Jiachi and Song, Haoyu and Tang, Duyu and others},
-  journal={arXiv preprint arXiv:2601.11655},
-  year={2026},
-  abstract={Issue resolution, a complex Software Engineering (SWE) task integral to real-world development, has emerged as a compelling challenge for artificial intelligence. The establishment of benchmarks like SWE-bench revealed this task as profoundly difficult for large language models, thereby significantly accelerating the evolution of autonomous coding agents. This paper presents a systematic survey of this emerging domain. We begin by examining data construction pipelines, covering automated collection and synthesis approaches. We then provide a comprehensive analysis of methodologies, spanning training-free frameworks with their modular components to training-based techniques, including supervised fine-tuning and reinforcement learning. Subsequently, we discuss critical analyses of data quality and agent behavior, alongside practical applications. Finally, we identify key challenges and outline promising directions for future research.
+title ={Advances and Frontiers of LLM-based Issue Resolution in Software Engineering: A Comprehensive Survey},
+author ={Li, Caihua and Guo, Lianghong and Wang, Yanlin and Guo, Daya and Tao, Wei and Shan, Zhenyu and Liu, Mingwei and Chen, Jiachi and Song, Haoyu and Tang, Duyu and others},
+journal ={arXiv preprint arXiv:2601.11655},
+year ={2026},
+abstract ={Issue resolution, a complex Software Engineering (SWE) task integral to real-world development, has emerged as a compelling challenge for artificial intelligence. The establishment of benchmarks like SWE-bench revealed this task as profoundly difficult for large language models, thereby significantly accelerating the evolution of autonomous coding agents. This paper presents a systematic survey of this emerging domain. We begin by examining data construction pipelines, covering automated collection and synthesis approaches. We then provide a comprehensive analysis of methodologies, spanning training-free frameworks with their modular components to training-based techniques, including supervised fine-tuning and reinforcement learning. Subsequently, we discuss critical analyses of data quality and agent behavior, alongside practical applications. Finally, we identify key challenges and outline promising directions for future research.
   },
-  altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-      abbr={arXiv}
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 
 }
 @article{liu2026shortcoder,
-  title={ShortCoder: Knowledge-Augmented Syntax Optimization for Token-Efficient Code Generation},
-  author={Liu, Sicong and Huang, Yanxian and Liu, Mingwei and Chen, Jiachi and Shi, Ensheng and Ma, Yuchi and Zhang, Hongyu and Zhang, Yin and Wang, Yanlin},
-  journal={arXiv preprint arXiv:2601.09703},
-  year={2026},
-    altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={ShortCoder: Knowledge-Augmented Syntax Optimization for Token-Efficient Code Generation},
+author ={Liu, Sicong and Huang, Yanxian and Liu, Mingwei and Chen, Jiachi and Shi, Ensheng and Ma, Yuchi and Zhang, Hongyu and Zhang, Yin and Wang, Yanlin},
+journal ={arXiv preprint arXiv:2601.09703},
+year ={2026},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 
 }
 @article{zhang2025simpledevqa,
-  title={SimpleDevQA: Benchmarking Large Language Models on Development Knowledge QA},
-  author={Zhang, Jing and Guo, Lianghong and Wang, Yanlin and Liu, Mingwei and Chen, Jiachi and Ma, Yuchi and Shi, Ensheng and Zhuo, Terry Yue and Zhang, Hongyu and Zheng, Zibin},
-  journal={arXiv preprint arXiv:2512.08867},
-  year={2025},
-    altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={SimpleDevQA: Benchmarking Large Language Models on Development Knowledge QA},
+author ={Zhang, Jing and Guo, Lianghong and Wang, Yanlin and Liu, Mingwei and Chen, Jiachi and Ma, Yuchi and Shi, Ensheng and Zhuo, Terry Yue and Zhang, Hongyu and Zheng, Zibin},
+journal ={arXiv preprint arXiv:2512.08867},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 @article{liu2025framework,
-  title={Framework-Aware Code Generation with API Knowledge Graph-Constructed Data: A Study on HarmonyOS},
-  author={Liu, Mingwei and Pei, Zheng and Wang, Yanlin and Wang, Zihao and Li, Zikang and Lin, Enci and Peng, Xin and Zheng, Zibin},
-  journal={arXiv preprint arXiv:2512.00380},
-  year={2025},
-    altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={Framework-Aware Code Generation with API Knowledge Graph-Constructed Data: A Study on HarmonyOS},
+author ={Liu, Mingwei and Pei, Zheng and Wang, Yanlin and Wang, Zihao and Li, Zikang and Lin, Enci and Peng, Xin and Zheng, Zibin},
+journal ={arXiv preprint arXiv:2512.00380},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 
 @article{li2025ktester,
-  title={Knowledge Matters: Injecting Project and Testing Knowledge into LLM-based Unit Test Generation},
-  author={Li, Anji and Liu, Mingwei and Chen, Zhenxi and Pei, Zheng and Li, Zike and Dai, Dekun and Wang, Yanlin and Zheng, Zibin},
-  journal={arXiv preprint arXiv:2511.14224},
-  year={2025},
-    altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={ICSE 2026}
+title ={Knowledge Matters: Injecting Project and Testing Knowledge into LLM-based Unit Test Generation},
+author ={Li, Anji and Liu, Mingwei and Chen, Zhenxi and Pei, Zheng and Li, Zike and Dai, Dekun and Wang, Yanlin and Zheng, Zibin},
+journal ={arXiv preprint arXiv:2511.14224},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={ICSE 2026}
 }
 
 @article{li2025uncovering,
-  title={Uncovering Pretraining Code in LLMs: A Syntax-Aware Attribution Approach},
-  author={Li, Yuanheng and Chen, Zhuoyang and Liu, Xiaoyun and Wang, Yuhao and Liu, Mingwei and Shi, Yang and Huang, Kaifeng and Zhao, Shengjie},
-  journal={arXiv preprint arXiv:2511.07033},
-  year={2025},
-    altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={Uncovering Pretraining Code in LLMs: A Syntax-Aware Attribution Approach},
+author ={Li, Yuanheng and Chen, Zhuoyang and Liu, Xiaoyun and Wang, Yuhao and Liu, Mingwei and Shi, Yang and Huang, Kaifeng and Zhao, Shengjie},
+journal ={arXiv preprint arXiv:2511.07033},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 
 @article{gong2025cosqa+,
-  title={Cosqa+: Enhancing code search evaluation with a multi-choice benchmark and test-driven agents},
-  author={Gong, Jing and Wu, Yanghui and Liang, Linxi and Wang, Yanlin and Chen, Jiachi and Liu, Mingwei and Zheng, Zibin},
-  journal={IEEE Transactions on Software Engineering},
-  volume={52},
-  number={1},
-  pages={206--220},
-  year={2025},
-  publisher={IEEE},
-    altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={TSE}
+title ={Cosqa+: Enhancing code search evaluation with a multi-choice benchmark and test-driven agents},
+author ={Gong, Jing and Wu, Yanghui and Liang, Linxi and Wang, Yanlin and Chen, Jiachi and Liu, Mingwei and Zheng, Zibin},
+journal ={IEEE Transactions on Software Engineering},
+volume ={52},
+number ={1},
+pages ={206--220},
+year ={2025},
+publisher ={IEEE},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={TSE}
 }
 
 @article{wang2025effireasontrans,
-  title={EffiReasonTrans: RL-Optimized Reasoning for Code Translation},
-  author={Wang, Yanlin and Ou, Rongyi and Wang, Yanli and Liu, Mingwei and Chen, Jiachi and Shi, Ensheng and Liu, Xilin and Ma, Yuchi and Zheng, Zibin},
-  journal={arXiv preprint arXiv:2510.18863},
-  year={2025},
-    altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={EffiReasonTrans: RL-Optimized Reasoning for Code Translation},
+author ={Wang, Yanlin and Ou, Rongyi and Wang, Yanli and Liu, Mingwei and Chen, Jiachi and Shi, Ensheng and Liu, Xilin and Ma, Yuchi and Zheng, Zibin},
+journal ={arXiv preprint arXiv:2510.18863},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 
 @article{zhang2025generating,
-  title={Generating High-Quality Datasets for Code Editing via Open-Source Language Models},
-  author={Zhang, Zekai and Liu, Mingwei and Chen, Zhenxi and Liang, Linxi and Chen, Yuxuan and Ou, Guangsheng and Wang, Yanlin and Li, Dan and Peng, Xin and Zheng, Zibin},
-  journal={arXiv preprint arXiv:2509.25203},
-  year={2025},
-    altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={Generating High-Quality Datasets for Code Editing via Open-Source Language Models},
+author ={Zhang, Zekai and Liu, Mingwei and Chen, Zhenxi and Liang, Linxi and Chen, Yuxuan and Ou, Guangsheng and Wang, Yanlin and Li, Dan and Peng, Xin and Zheng, Zibin},
+journal ={arXiv preprint arXiv:2509.25203},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 
 @article{wang2025evolmatheval,
-  title={EvolMathEval: Towards Evolvable Benchmarks for Mathematical Reasoning via Evolutionary Testing},
-  author={Wang, Shengbo and Liu, Mingwei and Li, Zike and Li, Anji and Wang, Yanlin and Peng, Xin and Zheng, Zibin},
-  journal={arXiv preprint arXiv:2508.13003},
-  year={2025},
-      altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={EvolMathEval: Towards Evolvable Benchmarks for Mathematical Reasoning via Evolutionary Testing},
+author ={Wang, Shengbo and Liu, Mingwei and Li, Zike and Li, Anji and Wang, Yanlin and Peng, Xin and Zheng, Zibin},
+journal ={arXiv preprint arXiv:2508.13003},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 
 @article{duan2025hierarchical,
-  title={A hierarchical and evolvable benchmark for fine-grained code instruction following with multi-turn feedback},
-  author={Duan, Guoliang and Liu, Mingwei and Wang, Yanlin and Wang, Chong and Peng, Xin and Zheng, Zibin},
-  journal={arXiv preprint arXiv:2507.00699},
-  year={2025},
-  altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={A hierarchical and evolvable benchmark for fine-grained code instruction following with multi-turn feedback},
+author ={Duan, Guoliang and Liu, Mingwei and Wang, Yanlin and Wang, Chong and Peng, Xin and Zheng, Zibin},
+journal ={arXiv preprint arXiv:2507.00699},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 @article{wang2025beyond,
-  title={Beyond functional correctness: Investigating coding style inconsistencies in large language models},
-  author={Wang, Yanlin and Jiang, Tianyue and Liu, Mingwei and Chen, Jiachi and Mao, Mingzhi and Liu, Xilin and Ma, Yuchi and Zheng, Zibin},
-  journal={Proceedings of the ACM on Software Engineering},
-  volume={2},
-  number={FSE},
-  pages={690--712},
-  year={2025},
-  publisher={ACM New York, NY, USA},
-  abbr={FSE 2025},
-  altmetric={true},
-  dimensions={true},
-  bibtex_show={true}
+title ={Beyond functional correctness: Investigating coding style inconsistencies in large language models},
+author ={Wang, Yanlin and Jiang, Tianyue and Liu, Mingwei and Chen, Jiachi and Mao, Mingzhi and Liu, Xilin and Ma, Yuchi and Zheng, Zibin},
+journal ={Proceedings of the ACM on Software Engineering},
+volume ={2},
+number ={FSE},
+pages ={690--712},
+year ={2025},
+publisher ={ACM New York, NY, USA},
+abbr ={FSE 2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true}
 
 }
 
 @article{he2025adadec,
-  title={Adadec: Uncertainty-guided adaptive decoding for llm-based code generation},
-  author={He, Kaifeng and Liu, Mingwei and Wang, Chong and Li, Zike and Wang, Yanlin and Peng, Xin and Zheng, Zibin},
-  journal={arXiv e-prints},
-  pages={arXiv--2506},
-  year={2025},
-      altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={Adadec: Uncertainty-guided adaptive decoding for llm-based code generation},
+author ={He, Kaifeng and Liu, Mingwei and Wang, Chong and Li, Zike and Wang, Yanlin and Peng, Xin and Zheng, Zibin},
+journal ={arXiv e-prints},
+pages ={arXiv--2506},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 
 @article{liu2025code,
-  title={Code Copycat Conundrum: Demystifying Repetition in LLM-based Code Generation},
-  author={Liu, Mingwei and Li, Juntao and Wang, Ying and Du, Xueying and Ou, Zuoyu and Chen, Qiuyuan and An, Bingxu and Wei, Zhao and Xu, Yong and Zou, Fangming and others},
-  journal={arXiv preprint arXiv:2504.12608},
-  year={2025},
-      altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={Code Copycat Conundrum: Demystifying Repetition in LLM-based Code Generation},
+author ={Liu, Mingwei and Li, Juntao and Wang, Ying and Du, Xueying and Ou, Zuoyu and Chen, Qiuyuan and An, Bingxu and Wei, Zhao and Xu, Yong and Zou, Fangming and others},
+journal ={arXiv preprint arXiv:2504.12608},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 
 @article{dai2025feedbackeval,
-  title={Feedbackeval: A benchmark for evaluating large language models in feedback-driven code repair tasks},
-  author={Dai, Dekun and Liu, MingWei and Li, Anji and Cao, Jialun and Wang, Yanlin and Wang, Chong and Peng, Xin and Zheng, Zibin},
-  journal={arXiv preprint arXiv:2504.06939},
-  year={2025},
-      altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={Feedbackeval: A benchmark for evaluating large language models in feedback-driven code repair tasks},
+author ={Dai, Dekun and Liu, MingWei and Li, Anji and Cao, Jialun and Wang, Yanlin and Wang, Chong and Peng, Xin and Zheng, Zibin},
+journal ={arXiv preprint arXiv:2504.06939},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 
 @article{li2025enhancing,
-  title={Enhancing the robustness of llm-generated code: Empirical study and framework},
-  author={Li, Zike and Liu, Mingwei and Li, Anji and He, Kaifeng and Wang, Yanlin and Peng, Xin and Zheng, Zibin},
-  journal={arXiv e-prints},
-  pages={arXiv--2503},
-  year={2025},
-      altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={Enhancing the robustness of llm-generated code: Empirical study and framework},
+author ={Li, Zike and Liu, Mingwei and Li, Anji and He, Kaifeng and Wang, Yanlin and Peng, Xin and Zheng, Zibin},
+journal ={arXiv e-prints},
+pages ={arXiv--2503},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 @article{gu2025retrieve,
-  title={What to retrieve for effective retrieval-augmented code generation? an empirical study and beyond},
-  author={Gu, Wenchao and Chen, Juntao and Wang, Yanlin and Jiang, Tianyue and Li, Xingzhe and Liu, Mingwei and Liu, Xilin and Ma, Yuchi and Zheng, Zibin},
-  journal={arXiv preprint arXiv:2503.20589},
-  year={2025},
-      altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={What to retrieve for effective retrieval-augmented code generation? an empirical study and beyond},
+author ={Gu, Wenchao and Chen, Juntao and Wang, Yanlin and Jiang, Tianyue and Li, Xingzhe and Liu, Mingwei and Liu, Xilin and Ma, Yuchi and Zheng, Zibin},
+journal ={arXiv preprint arXiv:2503.20589},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 @article{ou2025enhancing,
-  title={Enhancing llm-based code translation in repository context via triple knowledge-augmented},
-  author={Ou, Guangsheng and Liu, Mingwei and Chen, Yuxuan and Du, Xueying and Wang, Shengbo and Zhang, Zekai and Peng, Xin and Zheng, Zibin},
-  journal={arXiv e-prints},
-  pages={arXiv--2503},
-  year={2025},
-      altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={Enhancing llm-based code translation in repository context via triple knowledge-augmented},
+author ={Ou, Guangsheng and Liu, Mingwei and Chen, Yuxuan and Du, Xueying and Wang, Shengbo and Zhang, Zekai and Peng, Xin and Zheng, Zibin},
+journal ={arXiv e-prints},
+pages ={arXiv--2503},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 @article{liang2025rustevo,
-  title={RustEvo\^{} 2: An Evolving Benchmark for API Evolution in LLM-based Rust Code Generation},
-  author={Liang, Linxi and Gong, Jing and Liu, Mingwei and Wang, Chong and Ou, Guangsheng and Wang, Yanlin and Peng, Xin and Zheng, Zibin},
-  journal={arXiv preprint arXiv:2503.16922},
-  year={2025},
-      altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
-    abbr={arXiv}
+title ={RustEvo\^{} 2: An Evolving Benchmark for API Evolution in LLM-based Rust Code Generation},
+author ={Liang, Linxi and Gong, Jing and Liu, Mingwei and Wang, Chong and Ou, Guangsheng and Wang, Yanlin and Peng, Xin and Zheng, Zibin},
+journal ={arXiv preprint arXiv:2503.16922},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 
 @article{cao2025should,
-  title={How should we build a benchmark? revisiting 274 code-related benchmarks for llms},
-  author={Cao, Jialun and Chan, Yuk-Kit and Ling, Zixuan and Wang, Wenxuan and Li, Shuqing and Liu, Mingwei and Qiao, Ruixi and Han, Yuting and Wang, Chaozheng and Yu, Boxi and others},
-  journal={arXiv preprint arXiv:2501.10711},
-  year={2025},
-  altmetric={true},
-  dimensions={true},
-  bibtex_show={true},
- abbr={arXiv}
+title ={How should we build a benchmark? revisiting 274 code-related benchmarks for llms},
+author ={Cao, Jialun and Chan, Yuk-Kit and Ling, Zixuan and Wang, Wenxuan and Li, Shuqing and Liu, Mingwei and Qiao, Ruixi and Han, Yuting and Wang, Chaozheng and Yu, Boxi and others},
+journal ={arXiv preprint arXiv:2501.10711},
+year ={2025},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true},
+abbr ={arXiv}
 }
 @inproceedings{ou2025rustrepotrans,
-  title={RustRepoTrans: Repository-level Context Code Translation Benchmark Targeting Rust},
-  author={Ou, Guangsheng and Liu, Mingwei and Chen, Yuxuan and Wang, Yanlin and Peng, Xin and Zheng, Zibin},
-  booktitle={2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
-  pages={610--622},
-  year={2025},
-  organization={IEEE},
-  abbr={ASE 2025},
-  google_scholar_id = {2tRrZ1ZAMYUC},
-  selected = {true},
-  pdf={ase2025rustrepotrans.pdf},
-  abstract={Recent advancements in large language models (LLMs) have demonstrated impressive capabilities in code translation, typically evaluated using benchmarks like CodeTransOcean
+title ={RustRepoTrans: Repository-level Context Code Translation Benchmark Targeting Rust},
+author ={Ou, Guangsheng and Liu, Mingwei and Chen, Yuxuan and Wang, Yanlin and Peng, Xin and Zheng, Zibin},
+booktitle ={2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+pages ={610--622},
+year ={2025},
+organization ={IEEE},
+abbr ={ASE 2025},
+google_scholar_id = {2tRrZ1ZAMYUC},
+selected = {true},
+pdf ={ase2025rustrepotrans.pdf},
+abstract ={Recent advancements in large language models (LLMs) have demonstrated impressive capabilities in code translation, typically evaluated using benchmarks like CodeTransOcean
 and RepoTransBench. However, dependency-free benchmarks fail to capture real-world complexities by focusing primarily on simple function-level translations and overlooking repository-level context (e.g., dependencies). Full-repository translation benchmarks
 significantly exceed the current capabilities of existing models, resulting in performance bottlenecks that fail to provide actionable insights for guiding model development. Furthermore, existing benchmarks do not account for the scenario of incrementally translating new or modified modules from the source to the target language, which demands careful handling of repositorylevel contexts such as dependencies, cross-module references,
 and architectural divergence. Moreover, LLMs’ effectiveness in translating to newer, low-resource languages like Rust remains
-largely underexplored.
-
-To address these gaps, we introduce RustRepoTrans, the first repository-level context code translation benchmark targeting incremental translation, comprising 375 tasks translating into Rust from C, Java, and Python. Using this benchmark, we evaluate seven representative LLMs, analyzing their errors to assess limitations in complex translation scenarios. Among them,
+largely underexplored. To address these gaps, we introduce RustRepoTrans, the first repository-level context code translation benchmark targeting incremental translation, comprising 375 tasks translating into Rust from C, Java, and Python. Using this benchmark, we evaluate seven representative LLMs, analyzing their errors to assess limitations in complex translation scenarios. Among them,
 DeepSeek-R1 performs best with 51.5% Pass@1, excelling in both basic functionality and additional translation abilities, such as noise robustness and syntactical difference identification. However, even DeepSeek-R1 experiences a 22.2% performance drop (Pass@1 from 73.7% to 51.5%) when handling repositorylevel context compared to previous benchmarks without such context. Meanwhile, we propose a set of more fine-grained evaluation metrics and an enhanced evaluation framework, enabling a more comprehensive analysis of LLMs’ performance in repository-level context code translation tasks to provide finegrained insights that can effectively inform the development of code translation techniques.}
-  code={https://github.com/SYSUSELab/RustRepoTrans},
-  dataset={https://huggingface.co/datasets/SYSUSELab/RustRepoTrans},
-  altmetric={true},
-  dimensions={true},
-  bibtex_show={true}
+code ={https://github.com/SYSUSELab/RustRepoTrans},
+dataset ={https://huggingface.co/datasets/SYSUSELab/RustRepoTrans},
+altmetric ={true},
+dimensions ={true},
+bibtex_show ={true}
 }
