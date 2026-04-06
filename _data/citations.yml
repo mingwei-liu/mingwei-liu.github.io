@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-03-30'
+  last_updated: '2026-04-06'
 papers:
   pd8zNUoAAAAJ:-95Q15plzcUC:
     citations: 17
     title: How should we build a benchmark? revisiting 274 code-related benchmarks for llms
     year: '2025'
   pd8zNUoAAAAJ:0EnyYjriUFMC:
-    citations: 65
+    citations: 66
     title: A learning-based approach for automatic construction of domain glossary from source code and documentation
     year: '2019'
   pd8zNUoAAAAJ:1DsIQWDZLl8C:
@@ -22,7 +22,7 @@ papers:
     title: 'RustRepoTrans: Repository-level Context Code Translation Benchmark Targeting Rust'
     year: '2024'
   pd8zNUoAAAAJ:3fE2CSJIrl8C:
-    citations: 50
+    citations: 51
     title: API method recommendation via explicit matching of functionality verb phrases
     year: '2020'
   pd8zNUoAAAAJ:5awf1xo2G04C:
@@ -30,15 +30,15 @@ papers:
     title: "\u91CD\u65B0\u5BA1\u89C6\u4EE3\u7801\u8865\u5168\u4E2D\u7684\u68C0\u7D22\u589E\u5F3A\u7B56\u7565"
     year: '2024'
   pd8zNUoAAAAJ:5nxA0vEk-isC:
-    citations: 140
+    citations: 141
     title: Improving api caveats accessibility by mining api caveats knowledge graph
     year: '2018'
   pd8zNUoAAAAJ:5ugPr518TE4C:
-    citations: 534
+    citations: 541
     title: Evaluating Large Language Models in Class-Level Code Generation
     year: '2024'
   pd8zNUoAAAAJ:738O_yMBCRsC:
-    citations: 61
+    citations: 62
     title: 'CodeGen4Libs: A Two-Stage Approach for Library-Oriented Code Generation'
     year: '2023'
   pd8zNUoAAAAJ:8Xgff_V0N9gC:
@@ -50,7 +50,7 @@ papers:
     title: Learning based and context aware non-informative comment detection
     year: '2020'
   pd8zNUoAAAAJ:9Nmd_mFXekcC:
-    citations: 148
+    citations: 152
     title: 'Vul-rag: Enhancing llm-based vulnerability detection via knowledge-level rag'
     year: '2024'
   pd8zNUoAAAAJ:Ade32sEp0pkC:
@@ -66,7 +66,7 @@ papers:
     title: Are decoder-only large language models the silver bullet for code search?
     year: '2026'
   pd8zNUoAAAAJ:DBa1UEJaJKAC:
-    citations: 14
+    citations: 15
     title: What to retrieve for effective retrieval-augmented code generation? an empirical study and beyond
     year: '2025'
   pd8zNUoAAAAJ:EkHepimYqZsC:
@@ -122,7 +122,7 @@ papers:
     title: Unseen-Codebases-Domain Data Synthesis and Training Based on Code Graphs
     year: '2026'
   pd8zNUoAAAAJ:Se3iqnhoufwC:
-    citations: 15
+    citations: 16
     title: Automatic generation of API documentations for open-source projects
     year: '2018'
   pd8zNUoAAAAJ:Tiz5es2fbqcC:
@@ -222,11 +222,11 @@ papers:
     title: 'Resolving crash bugs via large language models: An empirical study'
     year: '2023'
   pd8zNUoAAAAJ:tYavs44e6CUC:
-    citations: 431
+    citations: 437
     title: Evaluating and improving chatgpt for unit test generation
     year: '2024'
   pd8zNUoAAAAJ:u9iWguZQMMsC:
-    citations: 134
+    citations: 135
     title: Evaluating instruction-tuned large language models on code comprehension and generation
     year: '2023'
   pd8zNUoAAAAJ:uWQEDVKXjbEC:
