@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 Our paper titled "EffiReasonTrans: RL-Optimized Reasoning for Code Translation" is accepted by [TSE](https://conf.researchr.org/home/icse-2026),
-[Preprint](https://arxiv.org/pdf/2510.18863)
+[Paper](https://mingwei-liu.github.io/assets/pdf/TSE2026CodeTrans.pdf)
 
 
 
