@@ -510,7 +510,7 @@ ninja.data = [{
           section: "News",},{id: "news-three-papers-have-been-accepted-at-acl-2026",
           title: 'Three papers have been accepted at ACL 2026🎉🎉🎉',
           description: "",
-          section: "News",},{id: "news-our-paper-titled-effireasontrans-rl-optimized-reasoning-for-code-translation-is-accepted-by-tse-preprint",
+          section: "News",},{id: "news-our-paper-titled-effireasontrans-rl-optimized-reasoning-for-code-translation-is-accepted-by-tse-paper",
           title: 'Our paper titled “EffiReasonTrans: RL-Optimized Reasoning for Code Translation” is accepted by TSE,...',
           description: "",
           section: "News",},{id: "projects-project-1",
