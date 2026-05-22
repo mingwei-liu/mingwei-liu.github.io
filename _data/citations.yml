@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-20'
+  last_updated: '2026-05-22'
 papers:
   pd8zNUoAAAAJ:-95Q15plzcUC:
     citations: 19
@@ -22,7 +22,7 @@ papers:
     title: 'CoSQA+: Enhancing Code Search Evaluation With a Multi-Choice Benchmark and Test-Driven Agents'
     year: '2025'
   pd8zNUoAAAAJ:2tRrZ1ZAMYUC:
-    citations: 30
+    citations: 31
     title: 'RustRepoTrans: Repository-level Context Code Translation Benchmark Targeting Rust'
     year: '2024'
   pd8zNUoAAAAJ:3fE2CSJIrl8C:
@@ -102,7 +102,7 @@ papers:
     title: 'Code Copycat Conundrum: Demystifying Repetition in LLM-based Code Generation'
     year: '2025'
   pd8zNUoAAAAJ:NaGl4SEjCO4C:
-    citations: 34
+    citations: 35
     title: Api-related developer information needs in stack overflow
     year: '2021'
   pd8zNUoAAAAJ:NxmKEeNBbOMC:
