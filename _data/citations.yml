@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-03'
+  last_updated: '2026-06-05'
 papers:
   pd8zNUoAAAAJ:-95Q15plzcUC:
     citations: 19
@@ -62,7 +62,7 @@ papers:
     title: 'RepoDoc: A Knowledge Graph-Based Framework to Automatic Documentation Generation and Incremental Updates'
     year: '2026'
   pd8zNUoAAAAJ:B3FOqHPlNUQC:
-    citations: 10
+    citations: 11
     title: "\u9762\u5411\u94FE\u63A5\u9884\u6D4B\u7684\u77E5\u8BC6\u56FE\u8C31\u8868\u793A\u5B66\u4E60\u65B9\u6CD5\u7EFC\u8FF0"
     year: '2023'
   pd8zNUoAAAAJ:Bg7qf7VwUHIC:
@@ -70,7 +70,7 @@ papers:
     title: Are decoder-only large language models the silver bullet for code search?
     year: '2026'
   pd8zNUoAAAAJ:DBa1UEJaJKAC:
-    citations: 23
+    citations: 24
     title: What to retrieve for effective retrieval-augmented code generation? an empirical study and beyond
     year: '2025'
   pd8zNUoAAAAJ:EkHepimYqZsC:
@@ -236,10 +236,6 @@ papers:
   pd8zNUoAAAAJ:u9iWguZQMMsC:
     citations: 139
     title: Evaluating instruction-tuned large language models on code comprehension and generation
-    year: '2023'
-  pd8zNUoAAAAJ:uWQEDVKXjbEC:
-    citations: 0
-    title: Programming Task-oriented Solution Recommendation Method based on Multi-granularity Semantic Matching
     year: '2023'
   pd8zNUoAAAAJ:unp9ATQDT5gC:
     citations: 0
