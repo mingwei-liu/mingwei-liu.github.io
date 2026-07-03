@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-29'
+  last_updated: '2026-07-03'
 papers:
   pd8zNUoAAAAJ:-95Q15plzcUC:
     citations: 20
@@ -14,7 +14,7 @@ papers:
     title: Build-Aware Incremental C-to-Rust Migration via Skeleton-First Translation and Historical Knowledge Reuse
     year: '2026'
   pd8zNUoAAAAJ:0EnyYjriUFMC:
-    citations: 68
+    citations: 66
     title: A learning-based approach for automatic construction of domain glossary from source code and documentation
     year: '2019'
   pd8zNUoAAAAJ:1DsIQWDZLl8C:
@@ -26,11 +26,11 @@ papers:
     title: 'CoSQA+: Enhancing Code Search Evaluation With a Multi-Choice Benchmark and Test-Driven Agents'
     year: '2025'
   pd8zNUoAAAAJ:2tRrZ1ZAMYUC:
-    citations: 32
+    citations: 31
     title: 'RustRepoTrans: Repository-level Context Code Translation Benchmark Targeting Rust'
     year: '2024'
   pd8zNUoAAAAJ:3fE2CSJIrl8C:
-    citations: 52
+    citations: 51
     title: API method recommendation via explicit matching of functionality verb phrases
     year: '2020'
   pd8zNUoAAAAJ:4aZ_i-5WJEQC:
@@ -46,7 +46,7 @@ papers:
     title: Improving api caveats accessibility by mining api caveats knowledge graph
     year: '2018'
   pd8zNUoAAAAJ:5ugPr518TE4C:
-    citations: 640
+    citations: 645
     title: Evaluating Large Language Models in Class-Level Code Generation
     year: '2024'
   pd8zNUoAAAAJ:738O_yMBCRsC:
@@ -114,7 +114,7 @@ papers:
     title: 'Patient Centered But Employee Delivered: Patient Care Restructuring, Turnover, and Organizational Outcomes in Hospitals'
     year: '2009'
   pd8zNUoAAAAJ:L_l9e5I586QC:
-    citations: 15
+    citations: 16
     title: Evolving Triple Knowledge-Augmented LLMs for Code Translation in Repository Context
     year: '2025'
   pd8zNUoAAAAJ:MXK_kJrjxJIC:
@@ -210,7 +210,7 @@ papers:
     title: 'Advances and Frontiers of LLM-based Issue Resolution in Software Engineering: A Comprehensive Survey'
     year: '2026'
   pd8zNUoAAAAJ:hqOjcs7Dif8C:
-    citations: 64
+    citations: 63
     title: Generating query-specific class API summaries
     year: '2019'
   pd8zNUoAAAAJ:hvmnpdAuIbkC:
@@ -222,7 +222,7 @@ papers:
     title: 'RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories'
     year: '2026'
   pd8zNUoAAAAJ:j8SEvjWlNXcC:
-    citations: 38
+    citations: 39
     title: 'Stall+: Boosting llm-based repository-level code completion with static analysis'
     year: '2024'
   pd8zNUoAAAAJ:kF1pexMAQbMC:
@@ -230,7 +230,7 @@ papers:
     title: 'EvolMathEval: Towards Evolvable Benchmarks for Mathematical Reasoning via Evolutionary Testing'
     year: '2025'
   pd8zNUoAAAAJ:kNdYIx-mwKoC:
-    citations: 45
+    citations: 44
     title: Generating concept based API element comparison using a knowledge graph
     year: '2020'
   pd8zNUoAAAAJ:kWvqk_afx_IC:
@@ -266,11 +266,11 @@ papers:
     title: 'Resolving crash bugs via large language models: An empirical study'
     year: '2023'
   pd8zNUoAAAAJ:tYavs44e6CUC:
-    citations: 494
+    citations: 495
     title: Evaluating and improving chatgpt for unit test generation
     year: '2024'
   pd8zNUoAAAAJ:u9iWguZQMMsC:
-    citations: 142
+    citations: 143
     title: Evaluating instruction-tuned large language models on code comprehension and generation
     year: '2023'
   pd8zNUoAAAAJ:unp9ATQDT5gC:
