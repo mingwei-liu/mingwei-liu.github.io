@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-06'
+  last_updated: '2026-07-08'
 papers:
   pd8zNUoAAAAJ:-95Q15plzcUC:
     citations: 20
@@ -34,7 +34,7 @@ papers:
     title: API method recommendation via explicit matching of functionality verb phrases
     year: '2020'
   pd8zNUoAAAAJ:4aZ_i-5WJEQC:
-    citations: 37
+    citations: 38
     title: The Role of Leadership in Human Resource Management
     year: '2020'
   pd8zNUoAAAAJ:5awf1xo2G04C:
@@ -46,7 +46,7 @@ papers:
     title: Improving api caveats accessibility by mining api caveats knowledge graph
     year: '2018'
   pd8zNUoAAAAJ:5ugPr518TE4C:
-    citations: 656
+    citations: 657
     title: Evaluating Large Language Models in Class-Level Code Generation
     year: '2024'
   pd8zNUoAAAAJ:738O_yMBCRsC:
@@ -62,7 +62,7 @@ papers:
     title: Learning based and context aware non-informative comment detection
     year: '2020'
   pd8zNUoAAAAJ:9Nmd_mFXekcC:
-    citations: 198
+    citations: 199
     title: 'Vul-rag: Enhancing llm-based vulnerability detection via knowledge-level rag'
     year: '2024'
   pd8zNUoAAAAJ:Ade32sEp0pkC:
@@ -86,7 +86,7 @@ papers:
     title: What to retrieve for effective retrieval-augmented code generation? an empirical study and beyond
     year: '2025'
   pd8zNUoAAAAJ:EkHepimYqZsC:
-    citations: 40
+    citations: 41
     title: 'Beyond functional correctness: Investigating coding style inconsistencies in large language models'
     year: '2025'
   pd8zNUoAAAAJ:G1UMdFYMoxkC:
@@ -114,7 +114,7 @@ papers:
     title: 'Patient Centered But Employee Delivered: Patient Care Restructuring, Turnover, and Organizational Outcomes in Hospitals'
     year: '2009'
   pd8zNUoAAAAJ:L_l9e5I586QC:
-    citations: 17
+    citations: 18
     title: Evolving Triple Knowledge-Augmented LLMs for Code Translation in Repository Context
     year: '2025'
   pd8zNUoAAAAJ:MXK_kJrjxJIC:
@@ -122,7 +122,7 @@ papers:
     title: Source code based on-demand class documentation generation
     year: '2020'
   pd8zNUoAAAAJ:NDuN12AVoxsC:
-    citations: 2
+    citations: 3
     title: 'Code Copycat Conundrum: Demystifying Repetition in LLM-based Code Generation'
     year: '2025'
   pd8zNUoAAAAJ:NaGl4SEjCO4C:
@@ -134,7 +134,7 @@ papers:
     title: 'Knowledge Matters: Injecting Project and Testing Knowledge into LLM-based Unit Test Generation'
     year: '2026'
   pd8zNUoAAAAJ:PyEswDtIyv0C:
-    citations: 18
+    citations: 19
     title: 'Feedbackeval: A benchmark for evaluating large language models in feedback-driven code repair tasks'
     year: '2025'
   pd8zNUoAAAAJ:RGFaLdJalmkC:
@@ -234,7 +234,7 @@ papers:
     title: 'RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories'
     year: '2026'
   pd8zNUoAAAAJ:j8SEvjWlNXcC:
-    citations: 39
+    citations: 42
     title: 'Stall+: Boosting llm-based repository-level code completion with static analysis'
     year: '2024'
   pd8zNUoAAAAJ:kF1pexMAQbMC:
@@ -278,7 +278,7 @@ papers:
     title: 'Resolving crash bugs via large language models: An empirical study'
     year: '2023'
   pd8zNUoAAAAJ:tYavs44e6CUC:
-    citations: 507
+    citations: 511
     title: Evaluating and improving chatgpt for unit test generation
     year: '2024'
   pd8zNUoAAAAJ:u9iWguZQMMsC:
