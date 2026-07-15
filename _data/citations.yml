@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-07-15'
 papers:
   pd8zNUoAAAAJ:-95Q15plzcUC:
     citations: 20
@@ -34,7 +34,7 @@ papers:
     title: API method recommendation via explicit matching of functionality verb phrases
     year: '2020'
   pd8zNUoAAAAJ:4aZ_i-5WJEQC:
-    citations: 38
+    citations: 37
     title: The Role of Leadership in Human Resource Management
     year: '2020'
   pd8zNUoAAAAJ:5awf1xo2G04C:
@@ -42,11 +42,11 @@ papers:
     title: "\u91CD\u65B0\u5BA1\u89C6\u4EE3\u7801\u8865\u5168\u4E2D\u7684\u68C0\u7D22\u589E\u5F3A\u7B56\u7565"
     year: '2024'
   pd8zNUoAAAAJ:5nxA0vEk-isC:
-    citations: 146
+    citations: 147
     title: Improving api caveats accessibility by mining api caveats knowledge graph
     year: '2018'
   pd8zNUoAAAAJ:5ugPr518TE4C:
-    citations: 657
+    citations: 658
     title: Evaluating Large Language Models in Class-Level Code Generation
     year: '2024'
   pd8zNUoAAAAJ:738O_yMBCRsC:
@@ -62,11 +62,11 @@ papers:
     title: Learning based and context aware non-informative comment detection
     year: '2020'
   pd8zNUoAAAAJ:9Nmd_mFXekcC:
-    citations: 199
+    citations: 203
     title: 'Vul-rag: Enhancing llm-based vulnerability detection via knowledge-level rag'
     year: '2024'
   pd8zNUoAAAAJ:Ade32sEp0pkC:
-    citations: 10
+    citations: 11
     title: 'RustEvo^ 2: An Evolving Benchmark for API Evolution in LLM-based Rust Code Generation'
     year: '2025'
   pd8zNUoAAAAJ:AzKEL7Gb_04C:
@@ -82,7 +82,7 @@ papers:
     title: Are decoder-only large language models the silver bullet for code search?
     year: '2026'
   pd8zNUoAAAAJ:DBa1UEJaJKAC:
-    citations: 29
+    citations: 31
     title: What to retrieve for effective retrieval-augmented code generation? an empirical study and beyond
     year: '2025'
   pd8zNUoAAAAJ:EkHepimYqZsC:
@@ -126,15 +126,15 @@ papers:
     title: 'Code Copycat Conundrum: Demystifying Repetition in LLM-based Code Generation'
     year: '2025'
   pd8zNUoAAAAJ:NaGl4SEjCO4C:
-    citations: 35
+    citations: 34
     title: Api-related developer information needs in stack overflow
     year: '2021'
   pd8zNUoAAAAJ:NxmKEeNBbOMC:
-    citations: 4
+    citations: 5
     title: 'Knowledge Matters: Injecting Project and Testing Knowledge into LLM-based Unit Test Generation'
     year: '2026'
   pd8zNUoAAAAJ:PyEswDtIyv0C:
-    citations: 19
+    citations: 21
     title: 'Feedbackeval: A benchmark for evaluating large language models in feedback-driven code repair tasks'
     year: '2025'
   pd8zNUoAAAAJ:RGFaLdJalmkC:
@@ -202,7 +202,7 @@ papers:
     title: Automatic code semantic tag generation approach based on software knowledge graph
     year: '2021'
   pd8zNUoAAAAJ:dfsIfKJdRG4C:
-    citations: 22
+    citations: 23
     title: 'Xcos: Explainable code search based on query scoping and knowledge graph'
     year: '2023'
   pd8zNUoAAAAJ:eAlLMO4JVmQC:
@@ -230,7 +230,7 @@ papers:
     title: 'Changes in neighbourhood walkability and incident CVD: A population-based cohort study of three million adults covering 24 years'
     year: '2025'
   pd8zNUoAAAAJ:isU91gLudPYC:
-    citations: 4
+    citations: 6
     title: 'RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories'
     year: '2026'
   pd8zNUoAAAAJ:j8SEvjWlNXcC:
@@ -278,7 +278,7 @@ papers:
     title: 'Resolving crash bugs via large language models: An empirical study'
     year: '2023'
   pd8zNUoAAAAJ:tYavs44e6CUC:
-    citations: 511
+    citations: 515
     title: Evaluating and improving chatgpt for unit test generation
     year: '2024'
   pd8zNUoAAAAJ:u9iWguZQMMsC:
