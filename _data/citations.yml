@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-17'
+  last_updated: '2026-07-20'
 papers:
   pd8zNUoAAAAJ:-95Q15plzcUC:
     citations: 20
@@ -22,7 +22,7 @@ papers:
     title: 'Autoevoeval: An automated framework for evolving close-ended llm evaluation data'
     year: '2025'
   pd8zNUoAAAAJ:1tZ8xJnm2c8C:
-    citations: 9
+    citations: 10
     title: 'CoSQA+: Enhancing Code Search Evaluation With a Multi-Choice Benchmark and Test-Driven Agents'
     year: '2025'
   pd8zNUoAAAAJ:2tRrZ1ZAMYUC:
@@ -46,11 +46,11 @@ papers:
     title: Improving api caveats accessibility by mining api caveats knowledge graph
     year: '2018'
   pd8zNUoAAAAJ:5ugPr518TE4C:
-    citations: 658
+    citations: 664
     title: Evaluating Large Language Models in Class-Level Code Generation
     year: '2024'
   pd8zNUoAAAAJ:738O_yMBCRsC:
-    citations: 65
+    citations: 66
     title: 'CodeGen4Libs: A Two-Stage Approach for Library-Oriented Code Generation'
     year: '2023'
   pd8zNUoAAAAJ:8dzOF9BpDQoC:
@@ -62,11 +62,11 @@ papers:
     title: Learning based and context aware non-informative comment detection
     year: '2020'
   pd8zNUoAAAAJ:9Nmd_mFXekcC:
-    citations: 203
+    citations: 206
     title: 'Vul-rag: Enhancing llm-based vulnerability detection via knowledge-level rag'
     year: '2024'
   pd8zNUoAAAAJ:Ade32sEp0pkC:
-    citations: 11
+    citations: 13
     title: 'RustEvo^ 2: An Evolving Benchmark for API Evolution in LLM-based Rust Code Generation'
     year: '2025'
   pd8zNUoAAAAJ:AzKEL7Gb_04C:
@@ -86,7 +86,7 @@ papers:
     title: What to retrieve for effective retrieval-augmented code generation? an empirical study and beyond
     year: '2025'
   pd8zNUoAAAAJ:EkHepimYqZsC:
-    citations: 41
+    citations: 42
     title: 'Beyond functional correctness: Investigating coding style inconsistencies in large language models'
     year: '2025'
   pd8zNUoAAAAJ:G1UMdFYMoxkC:
@@ -130,11 +130,11 @@ papers:
     title: Api-related developer information needs in stack overflow
     year: '2021'
   pd8zNUoAAAAJ:NxmKEeNBbOMC:
-    citations: 5
+    citations: 6
     title: 'Knowledge Matters: Injecting Project and Testing Knowledge into LLM-based Unit Test Generation'
     year: '2026'
   pd8zNUoAAAAJ:PyEswDtIyv0C:
-    citations: 21
+    citations: 22
     title: 'Feedbackeval: A benchmark for evaluating large language models in feedback-driven code repair tasks'
     year: '2025'
   pd8zNUoAAAAJ:RGFaLdJalmkC:
@@ -166,7 +166,7 @@ papers:
     title: Knowledge Graph based Explainable Question Retrieval for Programming Tasks
     year: '2023'
   pd8zNUoAAAAJ:UxriW0iASnsC:
-    citations: 20
+    citations: 21
     title: Task-Oriented ML/DL Library Recommendation based on a Knowledge Graph
     year: '2023'
   pd8zNUoAAAAJ:WbkHhVStYXYC:
@@ -186,7 +186,7 @@ papers:
     title: 'SimpleDevQA: Benchmarking Large Language Models on Development Knowledge QA'
     year: '2025'
   pd8zNUoAAAAJ:ZHo1McVdvXMC:
-    citations: 16
+    citations: 17
     title: How to formulate specific how-to questions in software development?
     year: '2022'
   pd8zNUoAAAAJ:Zh0EY9V9P6UC:
@@ -234,7 +234,7 @@ papers:
     title: 'RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories'
     year: '2026'
   pd8zNUoAAAAJ:j8SEvjWlNXcC:
-    citations: 42
+    citations: 43
     title: 'Stall+: Boosting llm-based repository-level code completion with static analysis'
     year: '2024'
   pd8zNUoAAAAJ:kF1pexMAQbMC:
@@ -278,11 +278,11 @@ papers:
     title: 'Resolving crash bugs via large language models: An empirical study'
     year: '2023'
   pd8zNUoAAAAJ:tYavs44e6CUC:
-    citations: 516
+    citations: 523
     title: Evaluating and improving chatgpt for unit test generation
     year: '2024'
   pd8zNUoAAAAJ:u9iWguZQMMsC:
-    citations: 144
+    citations: 145
     title: Evaluating instruction-tuned large language models on code comprehension and generation
     year: '2023'
   pd8zNUoAAAAJ:unp9ATQDT5gC:
@@ -298,6 +298,6 @@ papers:
     title: Architecture-Aware Multi-Design Generation for Repository-Level Feature Addition
     year: '2026'
   pd8zNUoAAAAJ:zdjWy_NXXwUC:
-    citations: 2
+    citations: 3
     title: 'Uncovering Pretraining Code in LLMs: A Syntax-Aware Attribution Approach'
     year: '2026'
