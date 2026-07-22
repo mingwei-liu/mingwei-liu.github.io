@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-20'
+  last_updated: '2026-07-22'
 papers:
   pd8zNUoAAAAJ:-95Q15plzcUC:
     citations: 20
@@ -26,7 +26,7 @@ papers:
     title: 'CoSQA+: Enhancing Code Search Evaluation With a Multi-Choice Benchmark and Test-Driven Agents'
     year: '2025'
   pd8zNUoAAAAJ:2tRrZ1ZAMYUC:
-    citations: 33
+    citations: 32
     title: 'RustRepoTrans: Repository-level Context Code Translation Benchmark Targeting Rust'
     year: '2024'
   pd8zNUoAAAAJ:3fE2CSJIrl8C:
@@ -46,11 +46,11 @@ papers:
     title: Improving api caveats accessibility by mining api caveats knowledge graph
     year: '2018'
   pd8zNUoAAAAJ:5ugPr518TE4C:
-    citations: 664
+    citations: 667
     title: Evaluating Large Language Models in Class-Level Code Generation
     year: '2024'
   pd8zNUoAAAAJ:738O_yMBCRsC:
-    citations: 66
+    citations: 67
     title: 'CodeGen4Libs: A Two-Stage Approach for Library-Oriented Code Generation'
     year: '2023'
   pd8zNUoAAAAJ:8dzOF9BpDQoC:
@@ -62,7 +62,7 @@ papers:
     title: Learning based and context aware non-informative comment detection
     year: '2020'
   pd8zNUoAAAAJ:9Nmd_mFXekcC:
-    citations: 206
+    citations: 207
     title: 'Vul-rag: Enhancing llm-based vulnerability detection via knowledge-level rag'
     year: '2024'
   pd8zNUoAAAAJ:Ade32sEp0pkC:
@@ -81,12 +81,16 @@ papers:
     citations: 6
     title: Are decoder-only large language models the silver bullet for code search?
     year: '2026'
+  pd8zNUoAAAAJ:BmWJbWwHJAwC:
+    citations: 0
+    title: PROGRAMMING TASK-ORIENTED SOLUTION RECOMMENDATION METHOD BASED ON MULTI-GRANULARITY SEMANTIC MATCHING
+    year: '2026'
   pd8zNUoAAAAJ:DBa1UEJaJKAC:
     citations: 31
     title: What to retrieve for effective retrieval-augmented code generation? an empirical study and beyond
     year: '2025'
   pd8zNUoAAAAJ:EkHepimYqZsC:
-    citations: 42
+    citations: 45
     title: 'Beyond functional correctness: Investigating coding style inconsistencies in large language models'
     year: '2025'
   pd8zNUoAAAAJ:G1UMdFYMoxkC:
@@ -146,7 +150,7 @@ papers:
     title: "\u6DF1\u5EA6\u5B66\u4E60\u6A21\u578B\u77E5\u8BC6\u56FE\u8C31\u6784\u5EFA\u65B9\u6CD5"
     year: '2026'
   pd8zNUoAAAAJ:RtRctb2lSbAC:
-    citations: 0
+    citations: 11
     title: 'AdaDec: A Uncertainty-Guided Lookahead Decoding Framework for LLM-Based Code Generation'
     year: '2026'
   pd8zNUoAAAAJ:SAZ1SQo2q1kC:
@@ -158,7 +162,7 @@ papers:
     title: Automatic generation of API documentations for open-source projects
     year: '2018'
   pd8zNUoAAAAJ:SxCCDk4iOpsC:
-    citations: 0
+    citations: 3
     title: 'Knowledge-Graph-Driven Data Synthesis for Low-Resource Software Development: A HarmonyOS Case Study'
     year: '2026'
   pd8zNUoAAAAJ:Tiz5es2fbqcC:
@@ -173,18 +177,10 @@ papers:
     citations: 15
     title: Recommending analogical apis via knowledge graph embedding
     year: '2023'
-  pd8zNUoAAAAJ:X9ykpCP0fEIC:
-    citations: 3
-    title: 'Framework-Aware Code Generation with API Knowledge Graph-Constructed Data: A Study on HarmonyOS'
-    year: '2025'
   pd8zNUoAAAAJ:YB4bud6kWLwC:
     citations: 0
     title: 'Position: Code Benchmarks Should Prioritize Rigor, Reliability, and Reproducibility'
     year: Unknown Year
-  pd8zNUoAAAAJ:YlPif8NxrbYC:
-    citations: 1
-    title: 'SimpleDevQA: Benchmarking Large Language Models on Development Knowledge QA'
-    year: '2025'
   pd8zNUoAAAAJ:ZHo1McVdvXMC:
     citations: 17
     title: How to formulate specific how-to questions in software development?
@@ -234,7 +230,7 @@ papers:
     title: 'RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories'
     year: '2026'
   pd8zNUoAAAAJ:j8SEvjWlNXcC:
-    citations: 43
+    citations: 44
     title: 'Stall+: Boosting llm-based repository-level code completion with static analysis'
     year: '2024'
   pd8zNUoAAAAJ:kF1pexMAQbMC:
@@ -249,12 +245,8 @@ papers:
     citations: 9
     title: A hierarchical and evolvable benchmark for fine-grained code instruction following with multi-turn feedback
     year: '2025'
-  pd8zNUoAAAAJ:mKu_rENv82IC:
-    citations: 11
-    title: 'Adadec: Uncertainty-guided adaptive decoding for llm-based code generation'
-    year: '2025'
   pd8zNUoAAAAJ:mel-f30kHHgC:
-    citations: 0
+    citations: 1
     title: 'From Conversation to Evaluation: Benchmarking LLMs on Development Knowledge via SimpleDevQA'
     year: '2026'
   pd8zNUoAAAAJ:q-HalDI95KYC:
@@ -277,12 +269,16 @@ papers:
     citations: 15
     title: 'Resolving crash bugs via large language models: An empirical study'
     year: '2023'
+  pd8zNUoAAAAJ:t-hv7AR41mYC:
+    citations: 0
+    title: 'WebDesignIter: Co-Evolving Design Knowledge for Repository-Level Front-End Code Generation'
+    year: '2026'
   pd8zNUoAAAAJ:tYavs44e6CUC:
-    citations: 523
+    citations: 527
     title: Evaluating and improving chatgpt for unit test generation
     year: '2024'
   pd8zNUoAAAAJ:u9iWguZQMMsC:
-    citations: 145
+    citations: 147
     title: Evaluating instruction-tuned large language models on code comprehension and generation
     year: '2023'
   pd8zNUoAAAAJ:unp9ATQDT5gC:
