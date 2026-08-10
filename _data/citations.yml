@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-08-07'
+  last_updated: '2026-08-10'
 papers:
   pd8zNUoAAAAJ:-95Q15plzcUC:
-    citations: 15
+    citations: 16
     title: How should we build a benchmark? revisiting 274 code-related benchmarks for llms
     year: '2025'
   pd8zNUoAAAAJ:-yGd096yOn8C:
@@ -18,7 +18,7 @@ papers:
     title: 'AutoEvoEval: An Automated Framework for Evolving Close-Ended LLM Evaluation Data'
     year: '2025'
   pd8zNUoAAAAJ:1tZ8xJnm2c8C:
-    citations: 12
+    citations: 13
     title: 'CoSQA+: Enhancing Code Search Evaluation With a Multi-Choice Benchmark and Test-Driven Agents'
     year: '2025'
   pd8zNUoAAAAJ:2tRrZ1ZAMYUC:
@@ -38,7 +38,7 @@ papers:
     title: Improving api caveats accessibility by mining api caveats knowledge graph
     year: '2018'
   pd8zNUoAAAAJ:5ugPr518TE4C:
-    citations: 676
+    citations: 688
     title: Evaluating Large Language Models in Class-Level Code Generation
     year: '2024'
   pd8zNUoAAAAJ:738O_yMBCRsC:
@@ -50,7 +50,7 @@ papers:
     title: Learning based and context aware non-informative comment detection
     year: '2020'
   pd8zNUoAAAAJ:9Nmd_mFXekcC:
-    citations: 206
+    citations: 210
     title: 'Vul-rag: Enhancing llm-based vulnerability detection via knowledge-level rag'
     year: '2024'
   pd8zNUoAAAAJ:Ade32sEp0pkC:
@@ -64,13 +64,13 @@ papers:
   pd8zNUoAAAAJ:B3FOqHPlNUQC:
     citations: 12
     title: "\u9762\u5411\u94FE\u63A5\u9884\u6D4B\u7684\u77E5\u8BC6\u56FE\u8C31\u8868\u793A\u5B66\u4E60\u65B9\u6CD5\u7EFC\u8FF0"
-    year: '2023'
+    year: '2024'
   pd8zNUoAAAAJ:Bg7qf7VwUHIC:
     citations: 7
     title: Are decoder-only large language models the silver bullet for code search?
     year: '2026'
   pd8zNUoAAAAJ:DBa1UEJaJKAC:
-    citations: 34
+    citations: 37
     title: What to retrieve for effective retrieval-augmented code generation? an empirical study and beyond
     year: '2025'
   pd8zNUoAAAAJ:EkHepimYqZsC:
@@ -198,7 +198,7 @@ papers:
     title: Generating query-specific class API summaries
     year: '2019'
   pd8zNUoAAAAJ:isU91gLudPYC:
-    citations: 8
+    citations: 9
     title: 'RealSec-bench: A benchmark for evaluating secure code generation in real-world repositories'
     year: '2026'
   pd8zNUoAAAAJ:j8SEvjWlNXcC:
@@ -218,7 +218,7 @@ papers:
     title: A hierarchical and evolvable benchmark for fine-grained code instruction following with multi-turn feedback
     year: '2025'
   pd8zNUoAAAAJ:mel-f30kHHgC:
-    citations: 2
+    citations: 3
     title: 'From Conversation to Evaluation: Benchmarking LLMs on Development Knowledge via SimpleDevQA'
     year: '2026'
   pd8zNUoAAAAJ:q-HalDI95KYC:
@@ -246,7 +246,7 @@ papers:
     title: 'WebDesignIter: Co-Evolving Design Knowledge for Repository-Level Front-End Code Generation'
     year: '2026'
   pd8zNUoAAAAJ:tYavs44e6CUC:
-    citations: 524
+    citations: 530
     title: Evaluating and improving chatgpt for unit test generation
     year: '2024'
   pd8zNUoAAAAJ:u9iWguZQMMsC:
