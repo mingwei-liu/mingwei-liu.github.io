@@ -1,10 +1,6 @@
 metadata:
-  last_updated: '2026-08-10'
+  last_updated: '2026-08-14'
 papers:
-  pd8zNUoAAAAJ:-95Q15plzcUC:
-    citations: 16
-    title: How should we build a benchmark? revisiting 274 code-related benchmarks for llms
-    year: '2025'
   pd8zNUoAAAAJ:-yGd096yOn8C:
     citations: 0
     title: Build-Aware Incremental C-to-Rust Migration via Skeleton-First Translation and Historical Knowledge Reuse.
@@ -38,7 +34,7 @@ papers:
     title: Improving api caveats accessibility by mining api caveats knowledge graph
     year: '2018'
   pd8zNUoAAAAJ:5ugPr518TE4C:
-    citations: 688
+    citations: 691
     title: Evaluating Large Language Models in Class-Level Code Generation
     year: '2024'
   pd8zNUoAAAAJ:738O_yMBCRsC:
@@ -50,7 +46,7 @@ papers:
     title: Learning based and context aware non-informative comment detection
     year: '2020'
   pd8zNUoAAAAJ:9Nmd_mFXekcC:
-    citations: 210
+    citations: 211
     title: 'Vul-rag: Enhancing llm-based vulnerability detection via knowledge-level rag'
     year: '2024'
   pd8zNUoAAAAJ:Ade32sEp0pkC:
@@ -118,7 +114,7 @@ papers:
     title: 'Knowledge Matters: Injecting Project and Testing Knowledge into LLM-based Unit Test Generation'
     year: '2025'
   pd8zNUoAAAAJ:PyEswDtIyv0C:
-    citations: 24
+    citations: 25
     title: 'Feedbackeval: A benchmark for evaluating large language models in feedback-driven code repair tasks'
     year: '2025'
   pd8zNUoAAAAJ:RGFaLdJalmkC:
@@ -150,7 +146,7 @@ papers:
     title: Knowledge Graph based Explainable Question Retrieval for Programming Tasks
     year: '2023'
   pd8zNUoAAAAJ:UxriW0iASnsC:
-    citations: 21
+    citations: 22
     title: Task-Oriented ML/DL Library Recommendation based on a Knowledge Graph
     year: '2023'
   pd8zNUoAAAAJ:WbkHhVStYXYC:
@@ -158,9 +154,9 @@ papers:
     title: Recommending analogical apis via knowledge graph embedding
     year: '2023'
   pd8zNUoAAAAJ:YB4bud6kWLwC:
-    citations: 0
+    citations: 20
     title: 'Position: Code Benchmarks Should Prioritize Rigor, Reliability, and Reproducibility'
-    year: Unknown Year
+    year: '2026'
   pd8zNUoAAAAJ:ZHo1McVdvXMC:
     citations: 16
     title: How to formulate specific how-to questions in software development?
@@ -221,6 +217,10 @@ papers:
     citations: 3
     title: 'From Conversation to Evaluation: Benchmarking LLMs on Development Knowledge via SimpleDevQA'
     year: '2026'
+  pd8zNUoAAAAJ:nPT8s1NX_-sC:
+    citations: 8
+    title: 'Code digital twin: Empowering llms with tacit knowledge for complex software maintenance'
+    year: '2025'
   pd8zNUoAAAAJ:q-HalDI95KYC:
     citations: 10
     title: 'Enhancing the robustness of llm-generated code: Empirical study and framework'
@@ -237,16 +237,12 @@ papers:
     citations: 1
     title: 'EffiReasonTrans: RL-Optimized Reasoning for Code Translation'
     year: '2026'
-  pd8zNUoAAAAJ:sSrBHYA8nusC:
-    citations: 15
-    title: 'Resolving crash bugs via large language models: An empirical study'
-    year: '2023'
   pd8zNUoAAAAJ:t-hv7AR41mYC:
     citations: 0
     title: 'WebDesignIter: Co-Evolving Design Knowledge for Repository-Level Front-End Code Generation'
     year: '2026'
   pd8zNUoAAAAJ:tYavs44e6CUC:
-    citations: 530
+    citations: 549
     title: Evaluating and improving chatgpt for unit test generation
     year: '2024'
   pd8zNUoAAAAJ:u9iWguZQMMsC:
@@ -265,6 +261,10 @@ papers:
     citations: 0
     title: Architecture-Aware Multi-Design Generation for Repository-Level Feature Addition
     year: '2026'
+  pd8zNUoAAAAJ:zUl2_INMlC4C:
+    citations: 15
+    title: 'Exploring Large Language Models in Resolving Environment-Related Crash Bugs: Localizing and Repairing'
+    year: '2025'
   pd8zNUoAAAAJ:zdjWy_NXXwUC:
     citations: 3
     title: 'Uncovering Pretraining Code in LLMs: A Syntax-Aware Attribution Approach'
