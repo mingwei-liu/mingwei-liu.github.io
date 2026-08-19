@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-14'
+  last_updated: '2026-08-19'
 papers:
   pd8zNUoAAAAJ:-yGd096yOn8C:
     citations: 0
@@ -34,7 +34,7 @@ papers:
     title: Improving api caveats accessibility by mining api caveats knowledge graph
     year: '2018'
   pd8zNUoAAAAJ:5ugPr518TE4C:
-    citations: 691
+    citations: 697
     title: Evaluating Large Language Models in Class-Level Code Generation
     year: '2024'
   pd8zNUoAAAAJ:738O_yMBCRsC:
@@ -154,7 +154,7 @@ papers:
     title: Recommending analogical apis via knowledge graph embedding
     year: '2023'
   pd8zNUoAAAAJ:YB4bud6kWLwC:
-    citations: 20
+    citations: 21
     title: 'Position: Code Benchmarks Should Prioritize Rigor, Reliability, and Reproducibility'
     year: '2026'
   pd8zNUoAAAAJ:ZHo1McVdvXMC:
@@ -222,7 +222,7 @@ papers:
     title: 'Code digital twin: Empowering llms with tacit knowledge for complex software maintenance'
     year: '2025'
   pd8zNUoAAAAJ:q-HalDI95KYC:
-    citations: 10
+    citations: 12
     title: 'Enhancing the robustness of llm-generated code: Empirical study and framework'
     year: '2025'
   pd8zNUoAAAAJ:roLk4NBRz8UC:
@@ -242,11 +242,11 @@ papers:
     title: 'WebDesignIter: Co-Evolving Design Knowledge for Repository-Level Front-End Code Generation'
     year: '2026'
   pd8zNUoAAAAJ:tYavs44e6CUC:
-    citations: 549
+    citations: 554
     title: Evaluating and improving chatgpt for unit test generation
     year: '2024'
   pd8zNUoAAAAJ:u9iWguZQMMsC:
-    citations: 141
+    citations: 142
     title: Evaluating instruction-tuned large language models on code comprehension and generation
     year: '2023'
   pd8zNUoAAAAJ:unp9ATQDT5gC:
@@ -254,7 +254,7 @@ papers:
     title: "\u57FA\u4E8E\u63D0\u793A\u5B66\u4E60\u7684 API \u8BC4\u8BBA\u77E5\u8BC6\u56FE\u8C31\u6784\u5EFA\u65B9\u6CD5"
     year: '2026'
   pd8zNUoAAAAJ:wE-fMHVdjMkC:
-    citations: 2
+    citations: 3
     title: 'ShortCoder: Knowledge-Augmented Syntax Optimization for Token-Efficient Code Generation'
     year: '2026'
   pd8zNUoAAAAJ:z6xuaG2dYH0C:
